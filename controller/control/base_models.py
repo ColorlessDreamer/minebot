@@ -13,15 +13,25 @@ class Message(BaseModel):
 class Entity(BaseModel):
     entityID: str
     type: str
+    username: str | None
 
 
 
 class SenseData(BaseModel):
-
     last_message: Optional[Message]
+    last_damage: Optional[DamageInfo]
     is_raining: bool
     is_day: bool
     entities: list[Entity]
+
+
+class DamageInfo(BaseModel):
+    attacker: Optional[dict] = Field(
+        None,
+        description="Information about the attacking entity if known"
+    )
+    health: float
+    timestamp: int
 
 
 # Actions
