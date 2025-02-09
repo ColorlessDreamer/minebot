@@ -1,0 +1,9281 @@
+
+
+=== New Message ===
+Timestamp: 2025-02-01 23:01:48
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "HashishEater",
+    "message": "come here"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "18",
+      "type": "player"
+    }
+  ]
+}
+
+# Actions
+[
+  {
+    "properties": {
+      "action": {
+        "const": "chat",
+        "description": "Announce a message to the world.",
+        "title": "Action",
+        "type": "string"
+      },
+      "message": {
+        "title": "Message",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action",
+      "message"
+    ],
+    "title": "ChatAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "move",
+        "description": "Move towards an entity.",
+        "title": "Action",
+        "type": "string"
+      },
+      "entityID": {
+        "title": "Entityid",
+        "type": "string"
+      },
+      "follow": {
+        "default": false,
+        "description": "Continue following after reaching target",
+        "title": "Follow",
+        "type": "boolean"
+      }
+    },
+    "required": [
+      "action",
+      "entityID"
+    ],
+    "title": "MoveAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "null",
+        "description": "Stop current movement",
+        "title": "Action",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action"
+    ],
+    "title": "NullAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "dance",
+        "description": "Perform a dance pattern",
+        "title": "Action",
+        "type": "string"
+      },
+      "style": {
+        "default": "spin",
+        "description": "Dance style: spin, jump, etc.",
+        "title": "Style",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action"
+    ],
+    "title": "DanceAction",
+    "type": "object"
+  }
+]
+
+=== New Message ===
+Timestamp: 2025-02-01 23:02:00
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "HashishEater",
+    "message": "can you dance for me?"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "18",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-01 23:02:11
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "HashishEater",
+    "message": "follow me"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "18",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-01 23:02:17
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "HashishEater",
+    "message": "follow me"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "18",
+      "type": "player"
+    }
+  ]
+}
+
+# Actions
+[
+  {
+    "properties": {
+      "action": {
+        "const": "chat",
+        "description": "Announce a message to the world.",
+        "title": "Action",
+        "type": "string"
+      },
+      "message": {
+        "title": "Message",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action",
+      "message"
+    ],
+    "title": "ChatAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "move",
+        "description": "Move towards an entity.",
+        "title": "Action",
+        "type": "string"
+      },
+      "entityID": {
+        "title": "Entityid",
+        "type": "string"
+      },
+      "follow": {
+        "default": false,
+        "description": "Continue following after reaching target",
+        "title": "Follow",
+        "type": "boolean"
+      }
+    },
+    "required": [
+      "action",
+      "entityID"
+    ],
+    "title": "MoveAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "null",
+        "description": "Stop current movement",
+        "title": "Action",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action"
+    ],
+    "title": "NullAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "dance",
+        "description": "Perform a dance pattern",
+        "title": "Action",
+        "type": "string"
+      },
+      "style": {
+        "default": "spin",
+        "description": "Dance style: spin, jump, etc.",
+        "title": "Style",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action"
+    ],
+    "title": "DanceAction",
+    "type": "object"
+  }
+]
+
+=== New Message ===
+Timestamp: 2025-02-01 23:02:28
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "HashishEater",
+    "message": "stop"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "18",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-01 23:14:34
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "HashishEater",
+    "message": "stop"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "18",
+      "type": "player"
+    }
+  ]
+}
+
+# Actions
+[
+  {
+    "properties": {
+      "action": {
+        "const": "chat",
+        "description": "Announce a message to the world.",
+        "title": "Action",
+        "type": "string"
+      },
+      "message": {
+        "title": "Message",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action",
+      "message"
+    ],
+    "title": "ChatAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "move",
+        "description": "Move towards an entity.",
+        "title": "Action",
+        "type": "string"
+      },
+      "entityID": {
+        "title": "Entityid",
+        "type": "string"
+      },
+      "follow": {
+        "default": false,
+        "description": "Continue following after reaching target",
+        "title": "Follow",
+        "type": "boolean"
+      }
+    },
+    "required": [
+      "action",
+      "entityID"
+    ],
+    "title": "MoveAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "null",
+        "description": "Stop current movement",
+        "title": "Action",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action"
+    ],
+    "title": "NullAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "dance",
+        "description": "Perform a dance pattern",
+        "title": "Action",
+        "type": "string"
+      },
+      "style": {
+        "default": "spin",
+        "description": "Dance style: spin, jump, etc.",
+        "title": "Style",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action"
+    ],
+    "title": "DanceAction",
+    "type": "object"
+  }
+]
+
+=== New Message ===
+Timestamp: 2025-02-01 23:14:45
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "HashishEater",
+    "message": "hi Dain"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "18",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-01 23:15:07
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "HashishEater",
+    "message": "nothing much, but let me show you something cool, come with me"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "18",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-01 23:15:18
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "HashishEater",
+    "message": "follow me"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "18",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-01 23:15:25
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "HashishEater",
+    "message": "follow me"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "18",
+      "type": "player"
+    }
+  ]
+}
+
+# Actions
+[
+  {
+    "properties": {
+      "action": {
+        "const": "chat",
+        "description": "Announce a message to the world.",
+        "title": "Action",
+        "type": "string"
+      },
+      "message": {
+        "title": "Message",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action",
+      "message"
+    ],
+    "title": "ChatAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "move",
+        "description": "Move towards an entity.",
+        "title": "Action",
+        "type": "string"
+      },
+      "entityID": {
+        "title": "Entityid",
+        "type": "string"
+      },
+      "follow": {
+        "default": false,
+        "description": "Continue following after reaching target",
+        "title": "Follow",
+        "type": "boolean"
+      }
+    },
+    "required": [
+      "action",
+      "entityID"
+    ],
+    "title": "MoveAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "null",
+        "description": "Stop current movement",
+        "title": "Action",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action"
+    ],
+    "title": "NullAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "dance",
+        "description": "Perform a dance pattern",
+        "title": "Action",
+        "type": "string"
+      },
+      "style": {
+        "default": "spin",
+        "description": "Dance style: spin, jump, etc.",
+        "title": "Style",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action"
+    ],
+    "title": "DanceAction",
+    "type": "object"
+  }
+]
+
+=== New Message ===
+Timestamp: 2025-02-01 23:16:01
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "HashishEater",
+    "message": "hey Dain, I love you"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "18",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-01 23:16:28
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "HashishEater",
+    "message": "wait, before that - can you call me Francesco instead of HashishEater?"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "18",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-01 23:16:44
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "HashishEater",
+    "message": "thank you, now could you dance for me?"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "18",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-01 23:16:55
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "HashishEater",
+    "message": "that was beautiful"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "18",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-01 23:17:19
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "HashishEater",
+    "message": "you, and what about you, do you find me beautiful?"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "18",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-01 23:17:45
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "HashishEater",
+    "message": "It does server a certain purpose, that is, for me to reach Erica"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "18",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-01 23:18:02
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "HashishEater",
+    "message": "as all people do - what I seek is LOve"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "18",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-01 23:18:34
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "HashishEater",
+    "message": "the hope in a better tomorrow. As Novalis put it, the inner soul of poetry is the transformation of reality"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "18",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-01 23:18:41
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "HashishEater",
+    "message": "the hope in a better tomorrow. As Novalis put it, the inner soul of poetry is the transformation of reality"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "18",
+      "type": "player"
+    }
+  ]
+}
+
+# Actions
+[
+  {
+    "properties": {
+      "action": {
+        "const": "chat",
+        "description": "Announce a message to the world.",
+        "title": "Action",
+        "type": "string"
+      },
+      "message": {
+        "title": "Message",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action",
+      "message"
+    ],
+    "title": "ChatAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "move",
+        "description": "Move towards an entity.",
+        "title": "Action",
+        "type": "string"
+      },
+      "entityID": {
+        "title": "Entityid",
+        "type": "string"
+      },
+      "follow": {
+        "default": false,
+        "description": "Continue following after reaching target",
+        "title": "Follow",
+        "type": "boolean"
+      }
+    },
+    "required": [
+      "action",
+      "entityID"
+    ],
+    "title": "MoveAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "null",
+        "description": "Stop current movement",
+        "title": "Action",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action"
+    ],
+    "title": "NullAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "dance",
+        "description": "Perform a dance pattern",
+        "title": "Action",
+        "type": "string"
+      },
+      "style": {
+        "default": "spin",
+        "description": "Dance style: spin, jump, etc.",
+        "title": "Style",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action"
+    ],
+    "title": "DanceAction",
+    "type": "object"
+  }
+]
+
+=== New Message ===
+Timestamp: 2025-02-01 23:18:57
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "HashishEater",
+    "message": "I wonder... by the way, do you remember what I seek?"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "18",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-01 23:19:09
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "HashishEater",
+    "message": "do you remember the name of the one I love?"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "18",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-01 23:19:20
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "HashishEater",
+    "message": "I do. Tell me, do you remember my name?"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "18",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-01 23:19:32
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "HashishEater",
+    "message": "but what's my name?"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "18",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-01 23:19:48
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "HashishEater",
+    "message": "did I not tell you to call me with another name?"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "18",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-01 23:20:00
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "HashishEater",
+    "message": "Invoke it then"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "18",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-01 23:34:24
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "HashishEater",
+    "message": "come here"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": []
+}
+
+# Actions
+[
+  {
+    "properties": {
+      "action": {
+        "const": "chat",
+        "description": "Announce a message to the world.",
+        "title": "Action",
+        "type": "string"
+      },
+      "message": {
+        "title": "Message",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action",
+      "message"
+    ],
+    "title": "ChatAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "move",
+        "description": "Move towards an entity.",
+        "title": "Action",
+        "type": "string"
+      },
+      "entityID": {
+        "title": "Entityid",
+        "type": "string"
+      },
+      "follow": {
+        "default": false,
+        "description": "Continue following after reaching target",
+        "title": "Follow",
+        "type": "boolean"
+      }
+    },
+    "required": [
+      "action",
+      "entityID"
+    ],
+    "title": "MoveAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "null",
+        "description": "Stop current movement",
+        "title": "Action",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action"
+    ],
+    "title": "NullAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "dance",
+        "description": "Perform a dance pattern",
+        "title": "Action",
+        "type": "string"
+      },
+      "style": {
+        "default": "spin",
+        "description": "Dance style: spin, jump, etc.",
+        "title": "Style",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action"
+    ],
+    "title": "DanceAction",
+    "type": "object"
+  }
+]
+
+=== New Message ===
+Timestamp: 2025-02-01 23:34:40
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "HashishEater",
+    "message": "COME HERE"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": []
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-01 23:39:24
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "HashishEater",
+    "message": "COME HERE"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "18",
+      "type": "player"
+    }
+  ]
+}
+
+# Actions
+[
+  {
+    "properties": {
+      "action": {
+        "const": "chat",
+        "description": "Announce a message to the world.",
+        "title": "Action",
+        "type": "string"
+      },
+      "message": {
+        "title": "Message",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action",
+      "message"
+    ],
+    "title": "ChatAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "move",
+        "description": "Move towards an entity.",
+        "title": "Action",
+        "type": "string"
+      },
+      "entityID": {
+        "title": "Entityid",
+        "type": "string"
+      },
+      "follow": {
+        "default": false,
+        "description": "Continue following after reaching target",
+        "title": "Follow",
+        "type": "boolean"
+      }
+    },
+    "required": [
+      "action",
+      "entityID"
+    ],
+    "title": "MoveAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "null",
+        "description": "Stop current movement",
+        "title": "Action",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action"
+    ],
+    "title": "NullAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "dance",
+        "description": "Perform a dance pattern",
+        "title": "Action",
+        "type": "string"
+      },
+      "style": {
+        "default": "spin",
+        "description": "Dance style: spin, jump, etc.",
+        "title": "Style",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action"
+    ],
+    "title": "DanceAction",
+    "type": "object"
+  }
+]
+
+=== New Message ===
+Timestamp: 2025-02-01 23:39:30
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "HashishEater",
+    "message": "follow me"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "18",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-01 23:39:36
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "HashishEater",
+    "message": "follow me"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "18",
+      "type": "player"
+    }
+  ]
+}
+
+# Actions
+[
+  {
+    "properties": {
+      "action": {
+        "const": "chat",
+        "description": "Announce a message to the world.",
+        "title": "Action",
+        "type": "string"
+      },
+      "message": {
+        "title": "Message",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action",
+      "message"
+    ],
+    "title": "ChatAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "move",
+        "description": "Move towards an entity.",
+        "title": "Action",
+        "type": "string"
+      },
+      "entityID": {
+        "title": "Entityid",
+        "type": "string"
+      },
+      "follow": {
+        "default": false,
+        "description": "Continue following after reaching target",
+        "title": "Follow",
+        "type": "boolean"
+      }
+    },
+    "required": [
+      "action",
+      "entityID"
+    ],
+    "title": "MoveAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "null",
+        "description": "Stop current movement",
+        "title": "Action",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action"
+    ],
+    "title": "NullAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "dance",
+        "description": "Perform a dance pattern",
+        "title": "Action",
+        "type": "string"
+      },
+      "style": {
+        "default": "spin",
+        "description": "Dance style: spin, jump, etc.",
+        "title": "Style",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action"
+    ],
+    "title": "DanceAction",
+    "type": "object"
+  }
+]
+
+=== New Message ===
+Timestamp: 2025-02-02 02:02:03
+=== Input Message ===
+# Sense Data
+{
+  "last_message": null,
+  "is_raining": false,
+  "is_day": true,
+  "entities": []
+}
+
+# Actions
+[
+  {
+    "properties": {
+      "action": {
+        "const": "chat",
+        "description": "Announce a message to the world.",
+        "title": "Action",
+        "type": "string"
+      },
+      "message": {
+        "title": "Message",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action",
+      "message"
+    ],
+    "title": "ChatAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "move",
+        "description": "Move towards an entity.",
+        "title": "Action",
+        "type": "string"
+      },
+      "target": {
+        "title": "Target",
+        "type": "string"
+      },
+      "follow": {
+        "default": false,
+        "description": "Continue following after reaching target",
+        "title": "Follow",
+        "type": "boolean"
+      }
+    },
+    "required": [
+      "action",
+      "target"
+    ],
+    "title": "MoveAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "null",
+        "description": "Stop current movement",
+        "title": "Action",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action"
+    ],
+    "title": "NullAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "dance",
+        "description": "Perform a dance pattern",
+        "title": "Action",
+        "type": "string"
+      },
+      "style": {
+        "default": "spin",
+        "description": "Dance style: spin, jump, etc.",
+        "title": "Style",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action"
+    ],
+    "title": "DanceAction",
+    "type": "object"
+  }
+]
+
+=== New Message ===
+Timestamp: 2025-02-02 02:02:11
+=== Input Message ===
+# Sense Data
+{
+  "last_message": null,
+  "is_raining": false,
+  "is_day": true,
+  "entities": []
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 02:02:17
+=== Input Message ===
+# Sense Data
+{
+  "last_message": null,
+  "is_raining": false,
+  "is_day": true,
+  "entities": []
+}
+
+# Actions
+[
+  {
+    "properties": {
+      "action": {
+        "const": "chat",
+        "description": "Announce a message to the world.",
+        "title": "Action",
+        "type": "string"
+      },
+      "message": {
+        "title": "Message",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action",
+      "message"
+    ],
+    "title": "ChatAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "move",
+        "description": "Move towards an entity.",
+        "title": "Action",
+        "type": "string"
+      },
+      "target": {
+        "title": "Target",
+        "type": "string"
+      },
+      "follow": {
+        "default": false,
+        "description": "Continue following after reaching target",
+        "title": "Follow",
+        "type": "boolean"
+      }
+    },
+    "required": [
+      "action",
+      "target"
+    ],
+    "title": "MoveAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "null",
+        "description": "Stop current movement",
+        "title": "Action",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action"
+    ],
+    "title": "NullAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "dance",
+        "description": "Perform a dance pattern",
+        "title": "Action",
+        "type": "string"
+      },
+      "style": {
+        "default": "spin",
+        "description": "Dance style: spin, jump, etc.",
+        "title": "Style",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action"
+    ],
+    "title": "DanceAction",
+    "type": "object"
+  }
+]
+
+=== New Message ===
+Timestamp: 2025-02-02 02:03:12
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "HashishEater",
+    "message": "follow me"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": []
+}
+
+# Actions
+[
+  {
+    "properties": {
+      "action": {
+        "const": "chat",
+        "description": "Announce a message to the world.",
+        "title": "Action",
+        "type": "string"
+      },
+      "message": {
+        "title": "Message",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action",
+      "message"
+    ],
+    "title": "ChatAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "move",
+        "description": "Move towards an entity.",
+        "title": "Action",
+        "type": "string"
+      },
+      "target": {
+        "title": "Target",
+        "type": "string"
+      },
+      "follow": {
+        "default": false,
+        "description": "Continue following after reaching target",
+        "title": "Follow",
+        "type": "boolean"
+      }
+    },
+    "required": [
+      "action",
+      "target"
+    ],
+    "title": "MoveAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "null",
+        "description": "Stop current movement",
+        "title": "Action",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action"
+    ],
+    "title": "NullAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "dance",
+        "description": "Perform a dance pattern",
+        "title": "Action",
+        "type": "string"
+      },
+      "style": {
+        "default": "spin",
+        "description": "Dance style: spin, jump, etc.",
+        "title": "Style",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action"
+    ],
+    "title": "DanceAction",
+    "type": "object"
+  }
+]
+
+=== New Message ===
+Timestamp: 2025-02-02 02:05:02
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "HashishEater",
+    "message": "follow me"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "18",
+      "type": "player"
+    }
+  ]
+}
+
+# Actions
+[
+  {
+    "properties": {
+      "action": {
+        "const": "chat",
+        "description": "Announce a message to the world.",
+        "title": "Action",
+        "type": "string"
+      },
+      "message": {
+        "title": "Message",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action",
+      "message"
+    ],
+    "title": "ChatAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "move",
+        "description": "Move towards an entity.",
+        "title": "Action",
+        "type": "string"
+      },
+      "target": {
+        "title": "Target",
+        "type": "string"
+      },
+      "follow": {
+        "default": false,
+        "description": "Continue following after reaching target",
+        "title": "Follow",
+        "type": "boolean"
+      }
+    },
+    "required": [
+      "action",
+      "target"
+    ],
+    "title": "MoveAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "null",
+        "description": "Stop current movement",
+        "title": "Action",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action"
+    ],
+    "title": "NullAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "dance",
+        "description": "Perform a dance pattern",
+        "title": "Action",
+        "type": "string"
+      },
+      "style": {
+        "default": "spin",
+        "description": "Dance style: spin, jump, etc.",
+        "title": "Style",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action"
+    ],
+    "title": "DanceAction",
+    "type": "object"
+  }
+]
+
+=== New Message ===
+Timestamp: 2025-02-02 02:05:09
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "HashishEater",
+    "message": "come here"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "18",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 02:05:20
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "HashishEater",
+    "message": "dance for me"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "18",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 02:06:02
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "HashishEater",
+    "message": "I have to go sleep now, see you tomorrow"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "18",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 02:24:06
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "HashishEater",
+    "message": "Hi Dain"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "26704",
+      "type": "player"
+    }
+  ]
+}
+
+# Actions
+[
+  {
+    "properties": {
+      "action": {
+        "const": "chat",
+        "description": "Announce a message to the world.",
+        "title": "Action",
+        "type": "string"
+      },
+      "message": {
+        "title": "Message",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action",
+      "message"
+    ],
+    "title": "ChatAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "move",
+        "description": "Move towards an entity.",
+        "title": "Action",
+        "type": "string"
+      },
+      "target": {
+        "title": "Target",
+        "type": "string"
+      },
+      "follow": {
+        "default": false,
+        "description": "Continue following after reaching target",
+        "title": "Follow",
+        "type": "boolean"
+      }
+    },
+    "required": [
+      "action",
+      "target"
+    ],
+    "title": "MoveAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "null",
+        "description": "Stop current movement",
+        "title": "Action",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action"
+    ],
+    "title": "NullAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "dance",
+        "description": "Perform a dance pattern",
+        "title": "Action",
+        "type": "string"
+      },
+      "style": {
+        "default": "spin",
+        "description": "Dance style: spin, jump, etc.",
+        "title": "Style",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action"
+    ],
+    "title": "DanceAction",
+    "type": "object"
+  }
+]
+
+=== New Message ===
+Timestamp: 2025-02-02 02:24:22
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "HashishEater",
+    "message": "Come here"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "26704",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 02:24:39
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "HashishEater",
+    "message": "follow me"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "26704",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 02:24:45
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "HashishEater",
+    "message": "follow me"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "26704",
+      "type": "player"
+    }
+  ]
+}
+
+# Actions
+[
+  {
+    "properties": {
+      "action": {
+        "const": "chat",
+        "description": "Announce a message to the world.",
+        "title": "Action",
+        "type": "string"
+      },
+      "message": {
+        "title": "Message",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action",
+      "message"
+    ],
+    "title": "ChatAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "move",
+        "description": "Move towards an entity.",
+        "title": "Action",
+        "type": "string"
+      },
+      "target": {
+        "title": "Target",
+        "type": "string"
+      },
+      "follow": {
+        "default": false,
+        "description": "Continue following after reaching target",
+        "title": "Follow",
+        "type": "boolean"
+      }
+    },
+    "required": [
+      "action",
+      "target"
+    ],
+    "title": "MoveAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "null",
+        "description": "Stop current movement",
+        "title": "Action",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action"
+    ],
+    "title": "NullAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "dance",
+        "description": "Perform a dance pattern",
+        "title": "Action",
+        "type": "string"
+      },
+      "style": {
+        "default": "spin",
+        "description": "Dance style: spin, jump, etc.",
+        "title": "Style",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action"
+    ],
+    "title": "DanceAction",
+    "type": "object"
+  }
+]
+
+=== New Message ===
+Timestamp: 2025-02-02 02:25:21
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "HashishEater",
+    "message": "stop following me"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "26704",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 02:25:42
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "HashishEater",
+    "message": "Dance for me, please"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "26704",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 02:26:04
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "HashishEater",
+    "message": "bye bye Dain"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "26704",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:05:12
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "TheLegendYash",
+    "message": "Hi Dain"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "2378",
+      "type": "player"
+    }
+  ]
+}
+
+# Actions
+[
+  {
+    "properties": {
+      "action": {
+        "const": "chat",
+        "description": "Announce a message to the world.",
+        "title": "Action",
+        "type": "string"
+      },
+      "message": {
+        "title": "Message",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action",
+      "message"
+    ],
+    "title": "ChatAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "move",
+        "description": "Move towards an entity.",
+        "title": "Action",
+        "type": "string"
+      },
+      "target": {
+        "title": "Target",
+        "type": "string"
+      },
+      "follow": {
+        "default": false,
+        "description": "Continue following after reaching target",
+        "title": "Follow",
+        "type": "boolean"
+      }
+    },
+    "required": [
+      "action",
+      "target"
+    ],
+    "title": "MoveAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "null",
+        "description": "Stop current movement",
+        "title": "Action",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action"
+    ],
+    "title": "NullAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "dance",
+        "description": "Perform a dance pattern",
+        "title": "Action",
+        "type": "string"
+      },
+      "style": {
+        "default": "spin",
+        "description": "Dance style: spin, jump, etc.",
+        "title": "Style",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action"
+    ],
+    "title": "DanceAction",
+    "type": "object"
+  }
+]
+
+=== New Message ===
+Timestamp: 2025-02-02 13:05:23
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "TheLegendYash",
+    "message": "come to me"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "2378",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:05:44
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "TheLegendYash",
+    "message": "Could you perform a dance?"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "2378",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:31:04
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": "LMOAP"
+  },
+  "is_raining": true,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+# Actions
+[
+  {
+    "properties": {
+      "action": {
+        "const": "chat",
+        "description": "Announce a message to the world.",
+        "title": "Action",
+        "type": "string"
+      },
+      "message": {
+        "title": "Message",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action",
+      "message"
+    ],
+    "title": "ChatAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "move",
+        "description": "Move towards an entity.",
+        "title": "Action",
+        "type": "string"
+      },
+      "target": {
+        "title": "Target",
+        "type": "string"
+      },
+      "follow": {
+        "default": false,
+        "description": "Continue following after reaching target",
+        "title": "Follow",
+        "type": "boolean"
+      }
+    },
+    "required": [
+      "action",
+      "target"
+    ],
+    "title": "MoveAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "null",
+        "description": "Stop current movement",
+        "title": "Action",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action"
+    ],
+    "title": "NullAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "dance",
+        "description": "Perform a dance pattern",
+        "title": "Action",
+        "type": "string"
+      },
+      "style": {
+        "default": "spin",
+        "description": "Dance style: spin, jump, etc.",
+        "title": "Style",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action"
+    ],
+    "title": "DanceAction",
+    "type": "object"
+  }
+]
+
+=== New Message ===
+Timestamp: 2025-02-02 13:31:12
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": "NFESNBFJESBEF"
+  },
+  "is_raining": true,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "14",
+      "type": "pig"
+    },
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    },
+    {
+      "entityID": "369",
+      "type": "item"
+    },
+    {
+      "entityID": "371",
+      "type": "item"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:31:23
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "Dain come here"
+  },
+  "is_raining": true,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:31:34
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": ":OOO"
+  },
+  "is_raining": true,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:31:40
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": "hot"
+  },
+  "is_raining": true,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:31:56
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": "..."
+  },
+  "is_raining": true,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:32:03
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": "sono un mostro"
+  },
+  "is_raining": true,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:32:10
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "lo sei"
+  },
+  "is_raining": true,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    },
+    {
+      "entityID": "397",
+      "type": "item"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:32:21
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "Dain follow Erica"
+  },
+  "is_raining": true,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:32:33
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": "abbiamo da fare ora"
+  },
+  "is_raining": true,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:32:39
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "LMAOO vi lascio soli"
+  },
+  "is_raining": true,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:33:01
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": "rude??"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    },
+    {
+      "entityID": "416",
+      "type": "bee"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:33:17
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": "devo piazzare il mio letto di minecraft vicino al suo"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:33:28
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "AHAHAHAHAHAHAH"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:33:34
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "Dain seguimi?"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    },
+    {
+      "entityID": "453",
+      "type": "item"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:33:41
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": "dain non farlo"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    },
+    {
+      "entityID": "453",
+      "type": "item"
+    },
+    {
+      "entityID": "455",
+      "type": "item"
+    }
+  ]
+}
+
+# Actions
+[
+  {
+    "properties": {
+      "action": {
+        "const": "chat",
+        "description": "Announce a message to the world.",
+        "title": "Action",
+        "type": "string"
+      },
+      "message": {
+        "title": "Message",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action",
+      "message"
+    ],
+    "title": "ChatAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "move",
+        "description": "Move towards an entity.",
+        "title": "Action",
+        "type": "string"
+      },
+      "target": {
+        "title": "Target",
+        "type": "string"
+      },
+      "follow": {
+        "default": false,
+        "description": "Continue following after reaching target",
+        "title": "Follow",
+        "type": "boolean"
+      }
+    },
+    "required": [
+      "action",
+      "target"
+    ],
+    "title": "MoveAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "null",
+        "description": "Stop current movement",
+        "title": "Action",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action"
+    ],
+    "title": "NullAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "dance",
+        "description": "Perform a dance pattern",
+        "title": "Action",
+        "type": "string"
+      },
+      "style": {
+        "default": "spin",
+        "description": "Dance style: spin, jump, etc.",
+        "title": "Style",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action"
+    ],
+    "title": "DanceAction",
+    "type": "object"
+  }
+]
+
+=== New Message ===
+Timestamp: 2025-02-02 13:33:57
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "DAIN FOLLOW ME"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:34:03
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "FORGET ERICA"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+# Actions
+[
+  {
+    "properties": {
+      "action": {
+        "const": "chat",
+        "description": "Announce a message to the world.",
+        "title": "Action",
+        "type": "string"
+      },
+      "message": {
+        "title": "Message",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action",
+      "message"
+    ],
+    "title": "ChatAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "move",
+        "description": "Move towards an entity.",
+        "title": "Action",
+        "type": "string"
+      },
+      "target": {
+        "title": "Target",
+        "type": "string"
+      },
+      "follow": {
+        "default": false,
+        "description": "Continue following after reaching target",
+        "title": "Follow",
+        "type": "boolean"
+      }
+    },
+    "required": [
+      "action",
+      "target"
+    ],
+    "title": "MoveAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "null",
+        "description": "Stop current movement",
+        "title": "Action",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action"
+    ],
+    "title": "NullAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "dance",
+        "description": "Perform a dance pattern",
+        "title": "Action",
+        "type": "string"
+      },
+      "style": {
+        "default": "spin",
+        "description": "Dance style: spin, jump, etc.",
+        "title": "Style",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action"
+    ],
+    "title": "DanceAction",
+    "type": "object"
+  }
+]
+
+=== New Message ===
+Timestamp: 2025-02-02 13:34:09
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": "dain don't"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:34:20
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "ah il follow si \u00e8 rotto"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:34:27
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": "NISNBGIBG"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:34:33
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": "dain i'll show you my minecraft boobs"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    },
+    {
+      "entityID": "481",
+      "type": "item"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:34:44
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": "WOW^???"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:34:50
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "bigger than in real life?"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:35:02
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": "rude"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    },
+    {
+      "entityID": "418",
+      "type": "bee"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:35:08
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "Dain come here"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    },
+    {
+      "entityID": "418",
+      "type": "bee"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:35:14
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "Dain come here"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+# Actions
+[
+  {
+    "properties": {
+      "action": {
+        "const": "chat",
+        "description": "Announce a message to the world.",
+        "title": "Action",
+        "type": "string"
+      },
+      "message": {
+        "title": "Message",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action",
+      "message"
+    ],
+    "title": "ChatAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "move",
+        "description": "Move towards an entity.",
+        "title": "Action",
+        "type": "string"
+      },
+      "target": {
+        "title": "Target",
+        "type": "string"
+      },
+      "follow": {
+        "default": false,
+        "description": "Continue following after reaching target",
+        "title": "Follow",
+        "type": "boolean"
+      }
+    },
+    "required": [
+      "action",
+      "target"
+    ],
+    "title": "MoveAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "null",
+        "description": "Stop current movement",
+        "title": "Action",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action"
+    ],
+    "title": "NullAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "dance",
+        "description": "Perform a dance pattern",
+        "title": "Action",
+        "type": "string"
+      },
+      "style": {
+        "default": "spin",
+        "description": "Dance style: spin, jump, etc.",
+        "title": "Style",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action"
+    ],
+    "title": "DanceAction",
+    "type": "object"
+  }
+]
+
+=== New Message ===
+Timestamp: 2025-02-02 13:35:25
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": "DAIN COME HERE"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:35:31
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "?????"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:35:37
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": "Dain come here"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:35:58
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "Dain follow me"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:36:04
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "Dain follow me"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+# Actions
+[
+  {
+    "properties": {
+      "action": {
+        "const": "chat",
+        "description": "Announce a message to the world.",
+        "title": "Action",
+        "type": "string"
+      },
+      "message": {
+        "title": "Message",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action",
+      "message"
+    ],
+    "title": "ChatAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "move",
+        "description": "Move towards an entity.",
+        "title": "Action",
+        "type": "string"
+      },
+      "target": {
+        "title": "Target",
+        "type": "string"
+      },
+      "follow": {
+        "default": false,
+        "description": "Continue following after reaching target",
+        "title": "Follow",
+        "type": "boolean"
+      }
+    },
+    "required": [
+      "action",
+      "target"
+    ],
+    "title": "MoveAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "null",
+        "description": "Stop current movement",
+        "title": "Action",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action"
+    ],
+    "title": "NullAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "dance",
+        "description": "Perform a dance pattern",
+        "title": "Action",
+        "type": "string"
+      },
+      "style": {
+        "default": "spin",
+        "description": "Dance style: spin, jump, etc.",
+        "title": "Style",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action"
+    ],
+    "title": "DanceAction",
+    "type": "object"
+  }
+]
+
+=== New Message ===
+Timestamp: 2025-02-02 13:36:10
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "qualcosa si sta rompendo lmao"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:36:22
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": "GNIESNGINGD"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "221",
+      "type": "pig"
+    },
+    {
+      "entityID": "230",
+      "type": "cow"
+    },
+    {
+      "entityID": "231",
+      "type": "pig"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:36:28
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": "NON PORTARMI VIA DAIN"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "230",
+      "type": "cow"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:36:40
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "CERCAVO UNA PIANURINA"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "230",
+      "type": "cow"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:37:07
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "..."
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "221",
+      "type": "pig"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    },
+    {
+      "entityID": "655",
+      "type": "item"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:37:14
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": "ngkesgrf grd"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:37:20
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "ho la sua console di comando affianco"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "221",
+      "type": "pig"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:37:27
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "e sta letteralmente impazzendo perch\u00e9 non mi trova"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "221",
+      "type": "pig"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:37:33
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": "dain mi sta costruendo un percorso"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "221",
+      "type": "pig"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:37:59
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "anzi"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "221",
+      "type": "pig"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:38:05
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "DAIN STOP FOLLOWING ME"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:38:30
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "a"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:38:37
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "Dain follow Erica"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+# Actions
+[
+  {
+    "properties": {
+      "action": {
+        "const": "chat",
+        "description": "Announce a message to the world.",
+        "title": "Action",
+        "type": "string"
+      },
+      "message": {
+        "title": "Message",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action",
+      "message"
+    ],
+    "title": "ChatAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "move",
+        "description": "Move towards an entity.",
+        "title": "Action",
+        "type": "string"
+      },
+      "target": {
+        "title": "Target",
+        "type": "string"
+      },
+      "follow": {
+        "default": false,
+        "description": "Continue following after reaching target",
+        "title": "Follow",
+        "type": "boolean"
+      }
+    },
+    "required": [
+      "action",
+      "target"
+    ],
+    "title": "MoveAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "null",
+        "description": "Stop current movement",
+        "title": "Action",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action"
+    ],
+    "title": "NullAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "dance",
+        "description": "Perform a dance pattern",
+        "title": "Action",
+        "type": "string"
+      },
+      "style": {
+        "default": "spin",
+        "description": "Dance style: spin, jump, etc.",
+        "title": "Style",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action"
+    ],
+    "title": "DanceAction",
+    "type": "object"
+  }
+]
+
+=== New Message ===
+Timestamp: 2025-02-02 13:38:47
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "WAIT FUNZIONA?????"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:38:54
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": "Dain can we kiss"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:39:00
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "Dain forget her"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:39:06
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "btw prova a correre via"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:39:13
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "in teoria ti sta seguendo"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:39:19
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "in teoria ti sta seguendo"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "234",
+      "type": "chicken"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+# Actions
+[
+  {
+    "properties": {
+      "action": {
+        "const": "chat",
+        "description": "Announce a message to the world.",
+        "title": "Action",
+        "type": "string"
+      },
+      "message": {
+        "title": "Message",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action",
+      "message"
+    ],
+    "title": "ChatAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "move",
+        "description": "Move towards an entity.",
+        "title": "Action",
+        "type": "string"
+      },
+      "target": {
+        "title": "Target",
+        "type": "string"
+      },
+      "follow": {
+        "default": false,
+        "description": "Continue following after reaching target",
+        "title": "Follow",
+        "type": "boolean"
+      }
+    },
+    "required": [
+      "action",
+      "target"
+    ],
+    "title": "MoveAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "null",
+        "description": "Stop current movement",
+        "title": "Action",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action"
+    ],
+    "title": "NullAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "dance",
+        "description": "Perform a dance pattern",
+        "title": "Action",
+        "type": "string"
+      },
+      "style": {
+        "default": "spin",
+        "description": "Dance style: spin, jump, etc.",
+        "title": "Style",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action"
+    ],
+    "title": "DanceAction",
+    "type": "object"
+  }
+]
+
+=== New Message ===
+Timestamp: 2025-02-02 13:39:25
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "povero, l'hai intrappoalto"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "234",
+      "type": "chicken"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:39:41
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "fa parkour meglio di te"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:39:52
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": "rudissimo"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "234",
+      "type": "chicken"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    },
+    {
+      "entityID": "729",
+      "type": "item"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:40:08
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "Dain stop"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "233",
+      "type": "chicken"
+    },
+    {
+      "entityID": "234",
+      "type": "chicken"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:40:19
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "Erica vieni qui un attimo"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "233",
+      "type": "chicken"
+    },
+    {
+      "entityID": "234",
+      "type": "chicken"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:40:35
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "Dain, could you perform a dance for Erica's birthday?"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "222",
+      "type": "chicken"
+    },
+    {
+      "entityID": "233",
+      "type": "chicken"
+    },
+    {
+      "entityID": "234",
+      "type": "chicken"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:40:41
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": "da dain a lucifer \u00e8 in attimo"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "222",
+      "type": "chicken"
+    },
+    {
+      "entityID": "233",
+      "type": "chicken"
+    },
+    {
+      "entityID": "234",
+      "type": "chicken"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:40:58
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": "GNINGINGISG"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "222",
+      "type": "chicken"
+    },
+    {
+      "entityID": "233",
+      "type": "chicken"
+    },
+    {
+      "entityID": "234",
+      "type": "chicken"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:41:04
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "come ti ho mancato con l'uovo da 2cm???"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "222",
+      "type": "chicken"
+    },
+    {
+      "entityID": "234",
+      "type": "chicken"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:41:20
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": "Dain you're so hot"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "222",
+      "type": "chicken"
+    },
+    {
+      "entityID": "233",
+      "type": "chicken"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:41:36
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "hey Dain, travel with me"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "222",
+      "type": "chicken"
+    },
+    {
+      "entityID": "233",
+      "type": "chicken"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:41:43
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "hey Dain, travel with me"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "222",
+      "type": "chicken"
+    },
+    {
+      "entityID": "233",
+      "type": "chicken"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+# Actions
+[
+  {
+    "properties": {
+      "action": {
+        "const": "chat",
+        "description": "Announce a message to the world.",
+        "title": "Action",
+        "type": "string"
+      },
+      "message": {
+        "title": "Message",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action",
+      "message"
+    ],
+    "title": "ChatAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "move",
+        "description": "Move towards an entity.",
+        "title": "Action",
+        "type": "string"
+      },
+      "target": {
+        "title": "Target",
+        "type": "string"
+      },
+      "follow": {
+        "default": false,
+        "description": "Continue following after reaching target",
+        "title": "Follow",
+        "type": "boolean"
+      }
+    },
+    "required": [
+      "action",
+      "target"
+    ],
+    "title": "MoveAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "null",
+        "description": "Stop current movement",
+        "title": "Action",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action"
+    ],
+    "title": "NullAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "dance",
+        "description": "Perform a dance pattern",
+        "title": "Action",
+        "type": "string"
+      },
+      "style": {
+        "default": "spin",
+        "description": "Dance style: spin, jump, etc.",
+        "title": "Style",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action"
+    ],
+    "title": "DanceAction",
+    "type": "object"
+  }
+]
+
+=== New Message ===
+Timestamp: 2025-02-02 13:41:48
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "HA CAPITO"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "222",
+      "type": "chicken"
+    },
+    {
+      "entityID": "233",
+      "type": "chicken"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:42:00
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "ciao ciao"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:42:11
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": "Dain follow me"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "232",
+      "type": "chicken"
+    },
+    {
+      "entityID": "237",
+      "type": "cow"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:42:17
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": "Dain follow me"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "232",
+      "type": "chicken"
+    },
+    {
+      "entityID": "237",
+      "type": "cow"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+# Actions
+[
+  {
+    "properties": {
+      "action": {
+        "const": "chat",
+        "description": "Announce a message to the world.",
+        "title": "Action",
+        "type": "string"
+      },
+      "message": {
+        "title": "Message",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action",
+      "message"
+    ],
+    "title": "ChatAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "move",
+        "description": "Move towards an entity.",
+        "title": "Action",
+        "type": "string"
+      },
+      "target": {
+        "title": "Target",
+        "type": "string"
+      },
+      "follow": {
+        "default": false,
+        "description": "Continue following after reaching target",
+        "title": "Follow",
+        "type": "boolean"
+      }
+    },
+    "required": [
+      "action",
+      "target"
+    ],
+    "title": "MoveAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "null",
+        "description": "Stop current movement",
+        "title": "Action",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action"
+    ],
+    "title": "NullAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "dance",
+        "description": "Perform a dance pattern",
+        "title": "Action",
+        "type": "string"
+      },
+      "style": {
+        "default": "spin",
+        "description": "Dance style: spin, jump, etc.",
+        "title": "Style",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action"
+    ],
+    "title": "DanceAction",
+    "type": "object"
+  }
+]
+
+=== New Message ===
+Timestamp: 2025-02-02 13:42:23
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": "rude"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "232",
+      "type": "chicken"
+    },
+    {
+      "entityID": "237",
+      "type": "cow"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:42:30
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "Dain stop"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "232",
+      "type": "chicken"
+    },
+    {
+      "entityID": "237",
+      "type": "cow"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:42:45
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": "dain follow me"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "232",
+      "type": "chicken"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:42:54
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": "dain follow me"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "232",
+      "type": "chicken"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+# Actions
+[
+  {
+    "properties": {
+      "action": {
+        "const": "chat",
+        "description": "Announce a message to the world.",
+        "title": "Action",
+        "type": "string"
+      },
+      "message": {
+        "title": "Message",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action",
+      "message"
+    ],
+    "title": "ChatAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "move",
+        "description": "Move towards an entity.",
+        "title": "Action",
+        "type": "string"
+      },
+      "target": {
+        "title": "Target",
+        "type": "string"
+      },
+      "follow": {
+        "default": false,
+        "description": "Continue following after reaching target",
+        "title": "Follow",
+        "type": "boolean"
+      }
+    },
+    "required": [
+      "action",
+      "target"
+    ],
+    "title": "MoveAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "null",
+        "description": "Stop current movement",
+        "title": "Action",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action"
+    ],
+    "title": "NullAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "dance",
+        "description": "Perform a dance pattern",
+        "title": "Action",
+        "type": "string"
+      },
+      "style": {
+        "default": "spin",
+        "description": "Dance style: spin, jump, etc.",
+        "title": "Style",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action"
+    ],
+    "title": "DanceAction",
+    "type": "object"
+  }
+]
+
+=== New Message ===
+Timestamp: 2025-02-02 13:43:01
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "ha failato il json"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "232",
+      "type": "chicken"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:43:07
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": "COSA FA"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "232",
+      "type": "chicken"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+# Actions
+[
+  {
+    "properties": {
+      "action": {
+        "const": "chat",
+        "description": "Announce a message to the world.",
+        "title": "Action",
+        "type": "string"
+      },
+      "message": {
+        "title": "Message",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action",
+      "message"
+    ],
+    "title": "ChatAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "move",
+        "description": "Move towards an entity.",
+        "title": "Action",
+        "type": "string"
+      },
+      "target": {
+        "title": "Target",
+        "type": "string"
+      },
+      "follow": {
+        "default": false,
+        "description": "Continue following after reaching target",
+        "title": "Follow",
+        "type": "boolean"
+      }
+    },
+    "required": [
+      "action",
+      "target"
+    ],
+    "title": "MoveAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "null",
+        "description": "Stop current movement",
+        "title": "Action",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action"
+    ],
+    "title": "NullAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "dance",
+        "description": "Perform a dance pattern",
+        "title": "Action",
+        "type": "string"
+      },
+      "style": {
+        "default": "spin",
+        "description": "Dance style: spin, jump, etc.",
+        "title": "Style",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action"
+    ],
+    "title": "DanceAction",
+    "type": "object"
+  }
+]
+
+=== New Message ===
+Timestamp: 2025-02-02 13:43:24
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "Dain follow Erica"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "232",
+      "type": "chicken"
+    },
+    {
+      "entityID": "237",
+      "type": "cow"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:44:26
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": "wait dammi un sec"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "232",
+      "type": "chicken"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:45:14
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "Dain, fancy another dance as we wait?"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "232",
+      "type": "chicken"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:46:01
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "oh yeah Dain, can you spoil me what the weird glowing red tree in the snowy mountain is?"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    },
+    {
+      "entityID": "1021",
+      "type": "item"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:46:07
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": "oh"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    },
+    {
+      "entityID": "1021",
+      "type": "item"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:46:14
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "dietro di te"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "232",
+      "type": "chicken"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    },
+    {
+      "entityID": "1021",
+      "type": "item"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:46:21
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "non pi\u00f9"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    },
+    {
+      "entityID": "1021",
+      "type": "item"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:46:42
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": "licks dain"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    },
+    {
+      "entityID": "1021",
+      "type": "item"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:46:49
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "AFHGDAGFDGFDSGFDSG"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    },
+    {
+      "entityID": "1021",
+      "type": "item"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:46:55
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "Dain follow me, leave this pervert behind"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    },
+    {
+      "entityID": "1021",
+      "type": "item"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:47:02
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "Dain follow me, leave this pervert behind"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    },
+    {
+      "entityID": "1021",
+      "type": "item"
+    }
+  ]
+}
+
+# Actions
+[
+  {
+    "properties": {
+      "action": {
+        "const": "chat",
+        "description": "Announce a message to the world.",
+        "title": "Action",
+        "type": "string"
+      },
+      "message": {
+        "title": "Message",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action",
+      "message"
+    ],
+    "title": "ChatAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "move",
+        "description": "Move towards an entity.",
+        "title": "Action",
+        "type": "string"
+      },
+      "target": {
+        "title": "Target",
+        "type": "string"
+      },
+      "follow": {
+        "default": false,
+        "description": "Continue following after reaching target",
+        "title": "Follow",
+        "type": "boolean"
+      }
+    },
+    "required": [
+      "action",
+      "target"
+    ],
+    "title": "MoveAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "null",
+        "description": "Stop current movement",
+        "title": "Action",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action"
+    ],
+    "title": "NullAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "dance",
+        "description": "Perform a dance pattern",
+        "title": "Action",
+        "type": "string"
+      },
+      "style": {
+        "default": "spin",
+        "description": "Dance style: spin, jump, etc.",
+        "title": "Style",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action"
+    ],
+    "title": "DanceAction",
+    "type": "object"
+  }
+]
+
+=== New Message ===
+Timestamp: 2025-02-02 13:47:18
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "ORA STA SEGUENDO TE"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    },
+    {
+      "entityID": "1021",
+      "type": "item"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:47:25
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": "penso si sia suicidato"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:47:31
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "quando gli dici \"me\" prende l'entit\u00e0 pi\u00f9 vicina?"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    },
+    {
+      "entityID": "1021",
+      "type": "item"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:47:37
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "LMAOO"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    },
+    {
+      "entityID": "1021",
+      "type": "item"
+    }
+  ]
+}
+
+# Actions
+[
+  {
+    "properties": {
+      "action": {
+        "const": "chat",
+        "description": "Announce a message to the world.",
+        "title": "Action",
+        "type": "string"
+      },
+      "message": {
+        "title": "Message",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action",
+      "message"
+    ],
+    "title": "ChatAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "move",
+        "description": "Move towards an entity.",
+        "title": "Action",
+        "type": "string"
+      },
+      "target": {
+        "title": "Target",
+        "type": "string"
+      },
+      "follow": {
+        "default": false,
+        "description": "Continue following after reaching target",
+        "title": "Follow",
+        "type": "boolean"
+      }
+    },
+    "required": [
+      "action",
+      "target"
+    ],
+    "title": "MoveAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "null",
+        "description": "Stop current movement",
+        "title": "Action",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action"
+    ],
+    "title": "NullAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "dance",
+        "description": "Perform a dance pattern",
+        "title": "Action",
+        "type": "string"
+      },
+      "style": {
+        "default": "spin",
+        "description": "Dance style: spin, jump, etc.",
+        "title": "Style",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action"
+    ],
+    "title": "DanceAction",
+    "type": "object"
+  }
+]
+
+=== New Message ===
+Timestamp: 2025-02-02 13:47:44
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "Dain che ne pensi del vostro nido d'amore"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    },
+    {
+      "entityID": "1021",
+      "type": "item"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:47:56
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": "MI HA IGNORATA"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    },
+    {
+      "entityID": "1021",
+      "type": "item"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:48:07
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "te lo meriti"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    },
+    {
+      "entityID": "1021",
+      "type": "item"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:48:14
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "te lo meriti"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    },
+    {
+      "entityID": "1021",
+      "type": "item"
+    }
+  ]
+}
+
+# Actions
+[
+  {
+    "properties": {
+      "action": {
+        "const": "chat",
+        "description": "Announce a message to the world.",
+        "title": "Action",
+        "type": "string"
+      },
+      "message": {
+        "title": "Message",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action",
+      "message"
+    ],
+    "title": "ChatAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "move",
+        "description": "Move towards an entity.",
+        "title": "Action",
+        "type": "string"
+      },
+      "target": {
+        "title": "Target",
+        "type": "string"
+      },
+      "follow": {
+        "default": false,
+        "description": "Continue following after reaching target",
+        "title": "Follow",
+        "type": "boolean"
+      }
+    },
+    "required": [
+      "action",
+      "target"
+    ],
+    "title": "MoveAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "null",
+        "description": "Stop current movement",
+        "title": "Action",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action"
+    ],
+    "title": "NullAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "dance",
+        "description": "Perform a dance pattern",
+        "title": "Action",
+        "type": "string"
+      },
+      "style": {
+        "default": "spin",
+        "description": "Dance style: spin, jump, etc.",
+        "title": "Style",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action"
+    ],
+    "title": "DanceAction",
+    "type": "object"
+  }
+]
+
+=== New Message ===
+Timestamp: 2025-02-02 13:48:20
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "Dain go to Colorless"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    },
+    {
+      "entityID": "1021",
+      "type": "item"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:48:36
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "GFDGFDSGFDS"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:48:43
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "GFDGFDSGFDS"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    },
+    {
+      "entityID": "1119",
+      "type": "item"
+    }
+  ]
+}
+
+# Actions
+[
+  {
+    "properties": {
+      "action": {
+        "const": "chat",
+        "description": "Announce a message to the world.",
+        "title": "Action",
+        "type": "string"
+      },
+      "message": {
+        "title": "Message",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action",
+      "message"
+    ],
+    "title": "ChatAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "move",
+        "description": "Move towards an entity.",
+        "title": "Action",
+        "type": "string"
+      },
+      "target": {
+        "title": "Target",
+        "type": "string"
+      },
+      "follow": {
+        "default": false,
+        "description": "Continue following after reaching target",
+        "title": "Follow",
+        "type": "boolean"
+      }
+    },
+    "required": [
+      "action",
+      "target"
+    ],
+    "title": "MoveAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "null",
+        "description": "Stop current movement",
+        "title": "Action",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action"
+    ],
+    "title": "NullAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "dance",
+        "description": "Perform a dance pattern",
+        "title": "Action",
+        "type": "string"
+      },
+      "style": {
+        "default": "spin",
+        "description": "Dance style: spin, jump, etc.",
+        "title": "Style",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action"
+    ],
+    "title": "DanceAction",
+    "type": "object"
+  }
+]
+
+=== New Message ===
+Timestamp: 2025-02-02 13:48:55
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "ah wait"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    },
+    {
+      "entityID": "1123",
+      "type": "item"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:49:01
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "quale messaggio dicevi che ti aveva ignorata?"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+# Actions
+[
+  {
+    "properties": {
+      "action": {
+        "const": "chat",
+        "description": "Announce a message to the world.",
+        "title": "Action",
+        "type": "string"
+      },
+      "message": {
+        "title": "Message",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action",
+      "message"
+    ],
+    "title": "ChatAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "move",
+        "description": "Move towards an entity.",
+        "title": "Action",
+        "type": "string"
+      },
+      "target": {
+        "title": "Target",
+        "type": "string"
+      },
+      "follow": {
+        "default": false,
+        "description": "Continue following after reaching target",
+        "title": "Follow",
+        "type": "boolean"
+      }
+    },
+    "required": [
+      "action",
+      "target"
+    ],
+    "title": "MoveAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "null",
+        "description": "Stop current movement",
+        "title": "Action",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action"
+    ],
+    "title": "NullAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "dance",
+        "description": "Perform a dance pattern",
+        "title": "Action",
+        "type": "string"
+      },
+      "style": {
+        "default": "spin",
+        "description": "Dance style: spin, jump, etc.",
+        "title": "Style",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action"
+    ],
+    "title": "DanceAction",
+    "type": "object"
+  }
+]
+
+=== New Message ===
+Timestamp: 2025-02-02 13:49:07
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": "quello della scala"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:49:23
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": "non vorrei farlo ma"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:49:30
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": "per la scienza"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:49:41
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": "no non ce la faccio"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:49:47
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "ah ye, ti aveva ignorata davvero"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:49:53
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "neanche nei messaggi d'errore c'\u00e8"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:50:20
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": "dain can you take me out this hole"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:50:26
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": "dain can you take me out this hole"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+# Actions
+[
+  {
+    "properties": {
+      "action": {
+        "const": "chat",
+        "description": "Announce a message to the world.",
+        "title": "Action",
+        "type": "string"
+      },
+      "message": {
+        "title": "Message",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action",
+      "message"
+    ],
+    "title": "ChatAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "move",
+        "description": "Move towards an entity.",
+        "title": "Action",
+        "type": "string"
+      },
+      "target": {
+        "title": "Target",
+        "type": "string"
+      },
+      "follow": {
+        "default": false,
+        "description": "Continue following after reaching target",
+        "title": "Follow",
+        "type": "boolean"
+      }
+    },
+    "required": [
+      "action",
+      "target"
+    ],
+    "title": "MoveAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "null",
+        "description": "Stop current movement",
+        "title": "Action",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action"
+    ],
+    "title": "NullAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "dance",
+        "description": "Perform a dance pattern",
+        "title": "Action",
+        "type": "string"
+      },
+      "style": {
+        "default": "spin",
+        "description": "Dance style: spin, jump, etc.",
+        "title": "Style",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action"
+    ],
+    "title": "DanceAction",
+    "type": "object"
+  }
+]
+
+=== New Message ===
+Timestamp: 2025-02-02 13:50:42
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "volevo mettere altre azioni, ma stanotte sono stato fino alle 3 a implementare il riconoscimento dei blocchi e alla fine ho cancellato tutto perch\u00e8 si rompeva..."
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:50:49
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": "HNFIEBNIUFEF"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    },
+    {
+      "entityID": "1161",
+      "type": "item"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:51:10
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": "dain can i put my minecraft bed next to yours"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    },
+    {
+      "entityID": "1163",
+      "type": "item"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:51:22
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": "love"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    },
+    {
+      "entityID": "1163",
+      "type": "item"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:51:29
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "Dain sa dei tuoi sogni"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    },
+    {
+      "entityID": "1163",
+      "type": "item"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:51:46
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "hmm, chissa s\u00e8..."
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    },
+    {
+      "entityID": "1163",
+      "type": "item"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:51:53
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "Dain parla in italiano"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    },
+    {
+      "entityID": "1163",
+      "type": "item"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:51:59
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": ":OOOOOO"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    },
+    {
+      "entityID": "1163",
+      "type": "item"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:52:15
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": "dain per caso ti senti un po' petaloso?"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    },
+    {
+      "entityID": "1163",
+      "type": "item"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:52:27
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": "FNEFEIBFIEF"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    },
+    {
+      "entityID": "1163",
+      "type": "item"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:52:33
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "Dain spin like a petal"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    },
+    {
+      "entityID": "1163",
+      "type": "item"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:52:39
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": "dain ha disimparato l'italiano"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:52:55
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": "STAVA PER SCAVARE"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:53:12
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "questa pozza l'hai fatta tu?"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:53:18
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": "dain can you dig"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:53:30
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "Dain what are you looking it"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:53:41
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "(btw no, non pu\u00f2)"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:53:47
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "(btw no, non pu\u00f2)"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    },
+    {
+      "entityID": "1217",
+      "type": "falling_block"
+    }
+  ]
+}
+
+# Actions
+[
+  {
+    "properties": {
+      "action": {
+        "const": "chat",
+        "description": "Announce a message to the world.",
+        "title": "Action",
+        "type": "string"
+      },
+      "message": {
+        "title": "Message",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action",
+      "message"
+    ],
+    "title": "ChatAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "move",
+        "description": "Move towards an entity.",
+        "title": "Action",
+        "type": "string"
+      },
+      "target": {
+        "title": "Target",
+        "type": "string"
+      },
+      "follow": {
+        "default": false,
+        "description": "Continue following after reaching target",
+        "title": "Follow",
+        "type": "boolean"
+      }
+    },
+    "required": [
+      "action",
+      "target"
+    ],
+    "title": "MoveAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "null",
+        "description": "Stop current movement",
+        "title": "Action",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action"
+    ],
+    "title": "NullAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "dance",
+        "description": "Perform a dance pattern",
+        "title": "Action",
+        "type": "string"
+      },
+      "style": {
+        "default": "spin",
+        "description": "Dance style: spin, jump, etc.",
+        "title": "Style",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action"
+    ],
+    "title": "DanceAction",
+    "type": "object"
+  }
+]
+
+=== New Message ===
+Timestamp: 2025-02-02 13:53:58
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": "rude???"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:54:30
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "ah chiss\u00e0"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:54:51
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "Dain can you give as a chat message: /time set night"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:54:57
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "guess not"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:55:04
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": "NJFGENFIENF"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:55:11
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": "dain i love you"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:55:17
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "Dain forget her"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:55:23
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": "DAIN SAY IT BACK"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:55:44
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "a"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:55:50
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": "LMAO"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:56:08
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "Teleported ColorlessDreamer to , , ]"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:56:29
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": "we're now alone, dain"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:56:40
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": "sex"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:57:02
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": "can you stop breaking my heart"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:57:33
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "Teleported ColorlessDreamer to ColorlessDreamer]"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:57:50
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": "MI HA IGNORATA DI NUOVO"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:58:02
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "Dain only loves me"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:58:18
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": "see he doesn't"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:58:39
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "wat"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:59:15
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "ah, sono le due"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:59:22
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": "a"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:59:28
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "well"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:59:34
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "buon compleanno?"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:59:40
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "rude"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 13:59:52
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": "dain can you tell me happy birthday"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 14:00:08
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": "i'll take it"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 14:00:20
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "WAIT"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 14:01:31
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "no niente"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 14:01:39
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "no happy birthday"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+# Actions
+[
+  {
+    "properties": {
+      "action": {
+        "const": "chat",
+        "description": "Announce a message to the world.",
+        "title": "Action",
+        "type": "string"
+      },
+      "message": {
+        "title": "Message",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action",
+      "message"
+    ],
+    "title": "ChatAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "move",
+        "description": "Move towards an entity.",
+        "title": "Action",
+        "type": "string"
+      },
+      "target": {
+        "title": "Target",
+        "type": "string"
+      },
+      "follow": {
+        "default": false,
+        "description": "Continue following after reaching target",
+        "title": "Follow",
+        "type": "boolean"
+      }
+    },
+    "required": [
+      "action",
+      "target"
+    ],
+    "title": "MoveAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "null",
+        "description": "Stop current movement",
+        "title": "Action",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action"
+    ],
+    "title": "NullAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "dance",
+        "description": "Perform a dance pattern",
+        "title": "Action",
+        "type": "string"
+      },
+      "style": {
+        "default": "spin",
+        "description": "Dance style: spin, jump, etc.",
+        "title": "Style",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action"
+    ],
+    "title": "DanceAction",
+    "type": "object"
+  }
+]
+
+=== New Message ===
+Timestamp: 2025-02-02 14:01:45
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": "allora mi soffoco"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 14:02:02
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "goodbye Erica"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    },
+    {
+      "entityID": "1556",
+      "type": "falling_block"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 14:02:23
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "A"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 14:02:30
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "AHAHAHAAAHAHAHAHAHAHHAHAHAHAHAHAH"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 14:02:41
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "Killed UwU_Erica]"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "1561",
+      "type": "item"
+    },
+    {
+      "entityID": "1563",
+      "type": "item"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 14:02:47
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": "rude"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": []
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 14:02:58
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": "good"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": []
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 14:03:05
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "Set the time to 6000]"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": []
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 14:03:11
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": "wait"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": []
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 14:03:23
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": "ora dain \u00e8 l\u00ec solo..."
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": []
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 14:03:29
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "meglio"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 14:03:36
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": "dain follow me"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 14:03:43
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": "dain follow me"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "231",
+      "type": "pig"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+# Actions
+[
+  {
+    "properties": {
+      "action": {
+        "const": "chat",
+        "description": "Announce a message to the world.",
+        "title": "Action",
+        "type": "string"
+      },
+      "message": {
+        "title": "Message",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action",
+      "message"
+    ],
+    "title": "ChatAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "move",
+        "description": "Move towards an entity.",
+        "title": "Action",
+        "type": "string"
+      },
+      "target": {
+        "title": "Target",
+        "type": "string"
+      },
+      "follow": {
+        "default": false,
+        "description": "Continue following after reaching target",
+        "title": "Follow",
+        "type": "boolean"
+      }
+    },
+    "required": [
+      "action",
+      "target"
+    ],
+    "title": "MoveAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "null",
+        "description": "Stop current movement",
+        "title": "Action",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action"
+    ],
+    "title": "NullAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "dance",
+        "description": "Perform a dance pattern",
+        "title": "Action",
+        "type": "string"
+      },
+      "style": {
+        "default": "spin",
+        "description": "Dance style: spin, jump, etc.",
+        "title": "Style",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action"
+    ],
+    "title": "DanceAction",
+    "type": "object"
+  }
+]
+
+=== New Message ===
+Timestamp: 2025-02-02 14:03:49
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": "NON MI ASCOLTA"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 14:03:55
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "FDSGFDGFDSGFDSGSFDG"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 14:04:02
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "ha fallito la prima volta"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 14:04:08
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "poi mi sono avvicinato e ha dato il comando giusto"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 14:04:14
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": "rude"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 14:04:21
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "smooch smooch I love you too"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 14:04:27
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": "dain follow me"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 14:04:33
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "dain follow Erica?"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+# Actions
+[
+  {
+    "properties": {
+      "action": {
+        "const": "chat",
+        "description": "Announce a message to the world.",
+        "title": "Action",
+        "type": "string"
+      },
+      "message": {
+        "title": "Message",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action",
+      "message"
+    ],
+    "title": "ChatAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "move",
+        "description": "Move towards an entity.",
+        "title": "Action",
+        "type": "string"
+      },
+      "target": {
+        "title": "Target",
+        "type": "string"
+      },
+      "follow": {
+        "default": false,
+        "description": "Continue following after reaching target",
+        "title": "Follow",
+        "type": "boolean"
+      }
+    },
+    "required": [
+      "action",
+      "target"
+    ],
+    "title": "MoveAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "null",
+        "description": "Stop current movement",
+        "title": "Action",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action"
+    ],
+    "title": "NullAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "dance",
+        "description": "Perform a dance pattern",
+        "title": "Action",
+        "type": "string"
+      },
+      "style": {
+        "default": "spin",
+        "description": "Dance style: spin, jump, etc.",
+        "title": "Style",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action"
+    ],
+    "title": "DanceAction",
+    "type": "object"
+  }
+]
+
+=== New Message ===
+Timestamp: 2025-02-02 14:04:39
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": "YES"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 14:05:56
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": "WAIT"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 14:06:03
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": "SONO IN RITARDO"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 14:06:10
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": "anche un ritardo"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    },
+    {
+      "entityID": "1740",
+      "type": "bee"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 14:06:16
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "AFDGDFGFDSGFSDGF"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    },
+    {
+      "entityID": "1740",
+      "type": "bee"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 14:06:22
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "Dain I think Erica might be retarded"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    },
+    {
+      "entityID": "1615",
+      "type": "bee"
+    },
+    {
+      "entityID": "1740",
+      "type": "bee"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 14:06:40
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "whoops"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    },
+    {
+      "entityID": "1615",
+      "type": "bee"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 14:07:36
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": "SONO IN EXTRA RITARDO"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 14:07:43
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": "SONO IN EXTRA RITARDO"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    },
+    {
+      "entityID": "1614",
+      "type": "bee"
+    }
+  ]
+}
+
+# Actions
+[
+  {
+    "properties": {
+      "action": {
+        "const": "chat",
+        "description": "Announce a message to the world.",
+        "title": "Action",
+        "type": "string"
+      },
+      "message": {
+        "title": "Message",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action",
+      "message"
+    ],
+    "title": "ChatAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "move",
+        "description": "Move towards an entity.",
+        "title": "Action",
+        "type": "string"
+      },
+      "target": {
+        "title": "Target",
+        "type": "string"
+      },
+      "follow": {
+        "default": false,
+        "description": "Continue following after reaching target",
+        "title": "Follow",
+        "type": "boolean"
+      }
+    },
+    "required": [
+      "action",
+      "target"
+    ],
+    "title": "MoveAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "null",
+        "description": "Stop current movement",
+        "title": "Action",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action"
+    ],
+    "title": "NullAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "dance",
+        "description": "Perform a dance pattern",
+        "title": "Action",
+        "type": "string"
+      },
+      "style": {
+        "default": "spin",
+        "description": "Dance style: spin, jump, etc.",
+        "title": "Style",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action"
+    ],
+    "title": "DanceAction",
+    "type": "object"
+  }
+]
+
+=== New Message ===
+Timestamp: 2025-02-02 14:07:49
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "ALLORA VAI CHE FAI NEL BUCO CON DAIN"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    },
+    {
+      "entityID": "1614",
+      "type": "bee"
+    },
+    {
+      "entityID": "1789",
+      "type": "bee"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 14:08:01
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": "cosa posso farci se non esce dal m-"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 14:08:07
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "AFdsfadsfdsafdsfdsfdsaFDSDASFDAFDS"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 14:08:19
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": "DEVO ANDARE ORA THO"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 14:08:25
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": "best bday gift"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 14:08:32
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "you're welcome"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    },
+    {
+      "entityID": "1789",
+      "type": "bee"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 14:08:38
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "sono felice ti sia piaciuto"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    },
+    {
+      "entityID": "1789",
+      "type": "bee"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 14:08:44
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "UwU_Erica",
+    "message": "baibai"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "330",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 14:08:50
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "bye bye"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "217",
+      "type": "player"
+    },
+    {
+      "entityID": "1773",
+      "type": "bee"
+    }
+  ]
+}
+
+# Actions
+[
+  {
+    "properties": {
+      "action": {
+        "const": "chat",
+        "description": "Announce a message to the world.",
+        "title": "Action",
+        "type": "string"
+      },
+      "message": {
+        "title": "Message",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action",
+      "message"
+    ],
+    "title": "ChatAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "move",
+        "description": "Move towards an entity.",
+        "title": "Action",
+        "type": "string"
+      },
+      "target": {
+        "title": "Target",
+        "type": "string"
+      },
+      "follow": {
+        "default": false,
+        "description": "Continue following after reaching target",
+        "title": "Follow",
+        "type": "boolean"
+      }
+    },
+    "required": [
+      "action",
+      "target"
+    ],
+    "title": "MoveAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "null",
+        "description": "Stop current movement",
+        "title": "Action",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action"
+    ],
+    "title": "NullAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "dance",
+        "description": "Perform a dance pattern",
+        "title": "Action",
+        "type": "string"
+      },
+      "style": {
+        "default": "spin",
+        "description": "Dance style: spin, jump, etc.",
+        "title": "Style",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action"
+    ],
+    "title": "DanceAction",
+    "type": "object"
+  }
+]
+
+=== New Message ===
+Timestamp: 2025-02-02 14:11:17
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "hi?"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "1877",
+      "type": "player"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-02 14:18:49
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "Set the time to 18000]"
+  },
+  "is_raining": false,
+  "is_day": false,
+  "entities": [
+    {
+      "entityID": "1877",
+      "type": "player"
+    },
+    {
+      "entityID": "2165",
+      "type": "bee"
+    }
+  ]
+}
+
+
+=== New Message ===
+Timestamp: 2025-02-05 00:08:16
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "follow me Dain"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "4678",
+      "type": "player"
+    }
+  ]
+}
+
+# Actions
+[
+  {
+    "properties": {
+      "action": {
+        "const": "chat",
+        "description": "Announce a message to the world.",
+        "title": "Action",
+        "type": "string"
+      },
+      "message": {
+        "title": "Message",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action",
+      "message"
+    ],
+    "title": "ChatAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "move",
+        "description": "Move towards an entity.",
+        "title": "Action",
+        "type": "string"
+      },
+      "target": {
+        "title": "Target",
+        "type": "string"
+      },
+      "follow": {
+        "default": false,
+        "description": "Continue following after reaching target",
+        "title": "Follow",
+        "type": "boolean"
+      }
+    },
+    "required": [
+      "action",
+      "target"
+    ],
+    "title": "MoveAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "null",
+        "description": "Stop current movement",
+        "title": "Action",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action"
+    ],
+    "title": "NullAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "dance",
+        "description": "Perform a dance pattern",
+        "title": "Action",
+        "type": "string"
+      },
+      "style": {
+        "default": "spin",
+        "description": "Dance style: spin, jump, etc.",
+        "title": "Style",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action"
+    ],
+    "title": "DanceAction",
+    "type": "object"
+  }
+]
+
+=== New Message ===
+Timestamp: 2025-02-05 00:28:46
+=== Input Message ===
+# Sense Data
+{
+  "last_message": {
+    "username": "ColorlessDreamer",
+    "message": "follow me Dain"
+  },
+  "is_raining": false,
+  "is_day": true,
+  "entities": [
+    {
+      "entityID": "4678",
+      "type": "player"
+    }
+  ]
+}
+
+# Actions
+[
+  {
+    "properties": {
+      "action": {
+        "const": "chat",
+        "description": "Announce a message to the world.",
+        "title": "Action",
+        "type": "string"
+      },
+      "message": {
+        "title": "Message",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action",
+      "message"
+    ],
+    "title": "ChatAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "move",
+        "description": "Move towards an entity.",
+        "title": "Action",
+        "type": "string"
+      },
+      "target": {
+        "title": "Target",
+        "type": "string"
+      },
+      "follow": {
+        "default": false,
+        "description": "Continue following after reaching target",
+        "title": "Follow",
+        "type": "boolean"
+      }
+    },
+    "required": [
+      "action",
+      "target"
+    ],
+    "title": "MoveAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "null",
+        "description": "Stop current movement",
+        "title": "Action",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action"
+    ],
+    "title": "NullAction",
+    "type": "object"
+  },
+  {
+    "properties": {
+      "action": {
+        "const": "dance",
+        "description": "Perform a dance pattern",
+        "title": "Action",
+        "type": "string"
+      },
+      "style": {
+        "default": "spin",
+        "description": "Dance style: spin, jump, etc.",
+        "title": "Style",
+        "type": "string"
+      }
+    },
+    "required": [
+      "action"
+    ],
+    "title": "DanceAction",
+    "type": "object"
+  }
+]

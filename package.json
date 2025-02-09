@@ -1,0 +1,19 @@
+{
+  "name": "minebot",
+  "version": "1.0.0",
+  "description": "### Environment I have tested this installation on Ubuntu 22.04. These instructions are written for that distro. You will need:  - python3.10  - NodeJS (I tested with 18.17)  - NPM (I tested with 9.6.7).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "js-yaml": "^4.1.0"
+  }
+}
+
+{
+  "type": "module"
+}

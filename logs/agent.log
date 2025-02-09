@@ -1,0 +1,2205 @@
+
+--- entityAttributes Event ---
+Entity attributes changed
+{
+  "id": 29857,
+  "type": "player",
+  "attributes": {
+    "22": {
+      "value": 0,
+      "modifiers": []
+    },
+    "player.block_interaction_range": {
+      "value": 4.5,
+      "modifiers": []
+    },
+    "generic.flying_speed": {
+      "value": 3,
+      "modifiers": []
+    },
+    "generic.step_height": {
+      "value": 0.10000000149011612,
+      "modifiers": []
+    }
+  }
+}
+Timestamp: 2025-02-05T23:51:52.518Z
+
+--- entityAttributes Event ---
+Entity attributes changed
+{
+  "id": 29966,
+  "type": "player",
+  "attributes": {
+    "22": {
+      "value": 0,
+      "modifiers": []
+    },
+    "player.block_interaction_range": {
+      "value": 4.5,
+      "modifiers": []
+    },
+    "generic.flying_speed": {
+      "value": 3,
+      "modifiers": []
+    },
+    "generic.step_height": {
+      "value": 0.10000000149011612,
+      "modifiers": []
+    }
+  }
+}
+Timestamp: 2025-02-05T23:52:50.029Z
+
+--- entityAttributes Event ---
+Entity attributes changed
+{
+  "id": 15,
+  "type": "player",
+  "attributes": {
+    "22": {
+      "value": 0,
+      "modifiers": []
+    },
+    "generic.attack_speed": {
+      "value": 4,
+      "modifiers": [
+        {
+          "uuid": "minecraft:base_attack_speed",
+          "amount": -3.200000047683716,
+          "operation": 0
+        }
+      ]
+    },
+    "generic.flying_speed": {
+      "value": 3,
+      "modifiers": []
+    },
+    "player.block_interaction_range": {
+      "value": 4.5,
+      "modifiers": []
+    },
+    "generic.step_height": {
+      "value": 0.10000000149011612,
+      "modifiers": []
+    }
+  }
+}
+Timestamp: 2025-02-05T23:52:50.747Z
+
+--- entityEquip Event ---
+Entity changed equipment
+{
+  "id": 15,
+  "type": "player",
+  "equipment": [
+    {
+      "type": 852,
+      "count": 1,
+      "metadata": 0,
+      "nbt": {
+        "type": "compound",
+        "name": "",
+        "value": {
+          "Damage": {
+            "type": "int",
+            "value": 0
+          }
+        }
+      },
+      "components": [
+        {
+          "type": "damage",
+          "data": 22
+        }
+      ],
+      "removedComponents": [],
+      "componentMap": {},
+      "stackId": null,
+      "name": "wooden_axe",
+      "displayName": "Wooden Axe",
+      "stackSize": 1,
+      "maxDurability": 59
+    },
+    null,
+    null,
+    null,
+    null
+  ]
+}
+Timestamp: 2025-02-05T23:52:50.749Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (31.09, 68.00, -102.09); Distance to bot: 3.12 blocks"
+Timestamp: 2025-02-05T23:52:53.666Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (31.09, 68.00, -102.09); Distance to bot: 3.12 blocks"
+Timestamp: 2025-02-05T23:52:56.664Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (31.09, 68.00, -102.09); Distance to bot: 3.12 blocks"
+Timestamp: 2025-02-05T23:52:58.064Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (31.09, 68.00, -102.09); Distance to bot: 3.12 blocks"
+Timestamp: 2025-02-05T23:52:59.664Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (31.09, 68.00, -102.09); Distance to bot: 3.12 blocks"
+Timestamp: 2025-02-05T23:53:02.665Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (31.09, 68.00, -102.09); Distance to bot: 3.12 blocks"
+Timestamp: 2025-02-05T23:53:05.663Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (31.09, 68.00, -102.09); Distance to bot: 3.12 blocks"
+Timestamp: 2025-02-05T23:53:08.666Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (31.09, 68.00, -102.09); Distance to bot: 3.12 blocks"
+Timestamp: 2025-02-05T23:53:11.663Z
+
+--- entityHurt Event ---
+Entity hurt detected
+{
+  "entity": {
+    "id": 29946,
+    "type": "ambient",
+    "name": "bat"
+  },
+  "botHealth": 20
+}
+Timestamp: 2025-02-05T23:53:14.214Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (31.09, 68.00, -102.09); Distance to bot: 3.12 blocks"
+Timestamp: 2025-02-05T23:53:14.666Z
+
+--- entityHurt Event ---
+Entity hurt detected
+{
+  "entity": {
+    "id": 29946,
+    "type": "ambient",
+    "name": "bat"
+  },
+  "botHealth": 20
+}
+Timestamp: 2025-02-05T23:53:14.716Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (31.09, 68.00, -102.09); Distance to bot: 3.12 blocks"
+Timestamp: 2025-02-05T23:53:17.664Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (31.09, 68.00, -102.09); Distance to bot: 3.12 blocks"
+Timestamp: 2025-02-05T23:53:20.664Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (31.09, 68.00, -102.09); Distance to bot: 3.12 blocks"
+Timestamp: 2025-02-05T23:53:23.663Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (31.09, 68.00, -102.09); Distance to bot: 3.12 blocks"
+Timestamp: 2025-02-05T23:53:26.663Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (31.09, 68.00, -102.09); Distance to bot: 3.12 blocks"
+Timestamp: 2025-02-05T23:53:29.663Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (31.09, 68.00, -102.09); Distance to bot: 3.12 blocks"
+Timestamp: 2025-02-05T23:53:32.663Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (31.09, 68.00, -102.09); Distance to bot: 3.12 blocks"
+Timestamp: 2025-02-05T23:53:35.664Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (31.09, 68.00, -102.09); Distance to bot: 3.12 blocks"
+Timestamp: 2025-02-05T23:53:38.163Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (31.09, 68.00, -102.09); Distance to bot: 3.12 blocks"
+Timestamp: 2025-02-05T23:53:41.663Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (31.09, 68.00, -102.09); Distance to bot: 3.12 blocks"
+Timestamp: 2025-02-05T23:53:44.666Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (31.09, 68.00, -102.09); Distance to bot: 3.12 blocks"
+Timestamp: 2025-02-05T23:53:47.664Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (31.09, 68.00, -102.09); Distance to bot: 3.12 blocks"
+Timestamp: 2025-02-05T23:53:50.664Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (31.09, 68.00, -102.09); Distance to bot: 3.12 blocks"
+Timestamp: 2025-02-05T23:53:53.665Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (31.09, 68.00, -102.09); Distance to bot: 3.12 blocks"
+Timestamp: 2025-02-05T23:53:56.663Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (31.09, 68.00, -102.09); Distance to bot: 3.12 blocks"
+Timestamp: 2025-02-05T23:53:59.665Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (31.09, 68.00, -102.09); Distance to bot: 3.12 blocks"
+Timestamp: 2025-02-05T23:54:02.663Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (31.09, 68.00, -102.09); Distance to bot: 3.12 blocks"
+Timestamp: 2025-02-05T23:54:05.665Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (31.09, 68.00, -102.09); Distance to bot: 3.12 blocks"
+Timestamp: 2025-02-05T23:54:08.663Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (31.09, 68.00, -102.09); Distance to bot: 3.12 blocks"
+Timestamp: 2025-02-05T23:54:11.665Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (31.09, 68.00, -102.09); Distance to bot: 3.12 blocks"
+Timestamp: 2025-02-05T23:54:14.663Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (31.09, 68.00, -102.09); Distance to bot: 3.12 blocks"
+Timestamp: 2025-02-05T23:54:17.666Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (31.09, 68.00, -102.09); Distance to bot: 3.12 blocks"
+Timestamp: 2025-02-05T23:54:20.665Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (31.09, 68.00, -102.09); Distance to bot: 3.12 blocks"
+Timestamp: 2025-02-05T23:54:23.663Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (31.09, 68.00, -102.09); Distance to bot: 3.12 blocks"
+Timestamp: 2025-02-05T23:54:26.663Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (31.09, 68.00, -102.09); Distance to bot: 3.12 blocks"
+Timestamp: 2025-02-05T23:54:29.664Z
+
+--- entityHurt Event ---
+Entity hurt detected
+{
+  "entity": {
+    "id": 30119,
+    "type": "ambient",
+    "name": "bat"
+  },
+  "botHealth": 20
+}
+Timestamp: 2025-02-05T23:54:30.664Z
+
+--- entityHurt Event ---
+Entity hurt detected
+{
+  "entity": {
+    "id": 30119,
+    "type": "ambient",
+    "name": "bat"
+  },
+  "botHealth": 20
+}
+Timestamp: 2025-02-05T23:54:31.864Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (31.09, 68.00, -102.09); Distance to bot: 3.12 blocks"
+Timestamp: 2025-02-05T23:54:32.664Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (31.09, 68.00, -102.09); Distance to bot: 3.12 blocks"
+Timestamp: 2025-02-05T23:54:35.664Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (31.09, 68.00, -102.09); Distance to bot: 3.12 blocks"
+Timestamp: 2025-02-05T23:54:36.764Z
+
+--- entityAttributes Event ---
+Entity attributes changed
+{
+  "id": 15,
+  "type": "player",
+  "attributes": {
+    "22": {
+      "value": 0,
+      "modifiers": []
+    },
+    "generic.attack_speed": {
+      "value": 4,
+      "modifiers": [
+        {
+          "uuid": "minecraft:base_attack_speed",
+          "amount": -3.200000047683716,
+          "operation": 0
+        }
+      ]
+    },
+    "generic.flying_speed": {
+      "value": 3,
+      "modifiers": []
+    },
+    "player.block_interaction_range": {
+      "value": 4.5,
+      "modifiers": []
+    },
+    "generic.step_height": {
+      "value": 0.10000000149011612,
+      "modifiers": [
+        {
+          "uuid": "minecraft:sprinting",
+          "amount": 0.30000001192092896,
+          "operation": 2
+        }
+      ]
+    }
+  }
+}
+Timestamp: 2025-02-05T23:54:37.215Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (34.92, 68.50, -100.84); Distance to bot: 2.24 blocks"
+Timestamp: 2025-02-05T23:54:37.765Z
+
+--- entityAttributes Event ---
+Entity attributes changed
+{
+  "id": 15,
+  "type": "player",
+  "attributes": {
+    "22": {
+      "value": 0,
+      "modifiers": []
+    },
+    "generic.attack_speed": {
+      "value": 4,
+      "modifiers": [
+        {
+          "uuid": "minecraft:base_attack_speed",
+          "amount": -3.200000047683716,
+          "operation": 0
+        }
+      ]
+    },
+    "generic.flying_speed": {
+      "value": 3,
+      "modifiers": []
+    },
+    "player.block_interaction_range": {
+      "value": 4.5,
+      "modifiers": []
+    },
+    "generic.step_height": {
+      "value": 0.10000000149011612,
+      "modifiers": []
+    }
+  }
+}
+Timestamp: 2025-02-05T23:54:38.064Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (36.38, 68.00, -101.76); Distance to bot: 2.53 blocks"
+Timestamp: 2025-02-05T23:54:39.163Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (34.29, 68.00, -101.81); Distance to bot: 1.08 blocks"
+Timestamp: 2025-02-05T23:54:40.564Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (35.82, 68.00, -101.83); Distance to bot: 2.01 blocks"
+Timestamp: 2025-02-05T23:54:41.663Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (35.77, 68.00, -101.83); Distance to bot: 1.96 blocks"
+Timestamp: 2025-02-05T23:54:44.662Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (35.77, 68.00, -101.83); Distance to bot: 1.96 blocks"
+Timestamp: 2025-02-05T23:54:47.663Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (35.77, 68.00, -101.83); Distance to bot: 1.96 blocks"
+Timestamp: 2025-02-05T23:54:50.663Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (35.77, 68.00, -101.83); Distance to bot: 1.96 blocks"
+Timestamp: 2025-02-05T23:54:53.663Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (35.67, 68.00, -101.83); Distance to bot: 1.88 blocks"
+Timestamp: 2025-02-05T23:54:55.665Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (36.55, 68.00, -102.12); Distance to bot: 2.55 blocks"
+Timestamp: 2025-02-05T23:54:56.764Z
+
+--- entityAttributes Event ---
+Entity attributes changed
+{
+  "id": 15,
+  "type": "player",
+  "attributes": {
+    "22": {
+      "value": 0,
+      "modifiers": []
+    },
+    "generic.attack_speed": {
+      "value": 4,
+      "modifiers": [
+        {
+          "uuid": "minecraft:base_attack_speed",
+          "amount": -3.200000047683716,
+          "operation": 0
+        }
+      ]
+    },
+    "generic.flying_speed": {
+      "value": 3,
+      "modifiers": []
+    },
+    "player.block_interaction_range": {
+      "value": 4.5,
+      "modifiers": []
+    },
+    "generic.step_height": {
+      "value": 0.10000000149011612,
+      "modifiers": [
+        {
+          "uuid": "minecraft:sprinting",
+          "amount": 0.30000001192092896,
+          "operation": 2
+        }
+      ]
+    }
+  }
+}
+Timestamp: 2025-02-05T23:54:57.164Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (33.59, 68.00, -101.34); Distance to bot: 1.62 blocks"
+Timestamp: 2025-02-05T23:54:57.864Z
+
+--- entityAttributes Event ---
+Entity attributes changed
+{
+  "id": 15,
+  "type": "player",
+  "attributes": {
+    "22": {
+      "value": 0,
+      "modifiers": []
+    },
+    "generic.attack_speed": {
+      "value": 4,
+      "modifiers": [
+        {
+          "uuid": "minecraft:base_attack_speed",
+          "amount": -3.200000047683716,
+          "operation": 0
+        }
+      ]
+    },
+    "generic.flying_speed": {
+      "value": 3,
+      "modifiers": []
+    },
+    "player.block_interaction_range": {
+      "value": 4.5,
+      "modifiers": []
+    },
+    "generic.step_height": {
+      "value": 0.10000000149011612,
+      "modifiers": []
+    }
+  }
+}
+Timestamp: 2025-02-05T23:54:57.864Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (32.09, 67.23, -100.40); Distance to bot: 3.28 blocks"
+Timestamp: 2025-02-05T23:54:58.964Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (32.54, 68.00, -101.02); Distance to bot: 2.43 blocks"
+Timestamp: 2025-02-05T23:55:00.064Z
+
+--- entityAttributes Event ---
+Entity attributes changed
+{
+  "id": 15,
+  "type": "player",
+  "attributes": {
+    "22": {
+      "value": 0,
+      "modifiers": []
+    },
+    "generic.attack_speed": {
+      "value": 4,
+      "modifiers": [
+        {
+          "uuid": "minecraft:base_attack_speed",
+          "amount": -3.200000047683716,
+          "operation": 0
+        }
+      ]
+    },
+    "generic.flying_speed": {
+      "value": 3,
+      "modifiers": []
+    },
+    "player.block_interaction_range": {
+      "value": 4.5,
+      "modifiers": []
+    },
+    "generic.step_height": {
+      "value": 0.10000000149011612,
+      "modifiers": [
+        {
+          "uuid": "minecraft:sprinting",
+          "amount": 0.30000001192092896,
+          "operation": 2
+        }
+      ]
+    }
+  }
+}
+Timestamp: 2025-02-05T23:55:00.664Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (36.80, 69.00, -101.46); Distance to bot: 3.20 blocks"
+Timestamp: 2025-02-05T23:55:01.164Z
+
+--- entityAttributes Event ---
+Entity attributes changed
+{
+  "id": 15,
+  "type": "player",
+  "attributes": {
+    "22": {
+      "value": 0,
+      "modifiers": []
+    },
+    "generic.attack_speed": {
+      "value": 4,
+      "modifiers": [
+        {
+          "uuid": "minecraft:base_attack_speed",
+          "amount": -3.200000047683716,
+          "operation": 0
+        }
+      ]
+    },
+    "generic.flying_speed": {
+      "value": 3,
+      "modifiers": []
+    },
+    "player.block_interaction_range": {
+      "value": 4.5,
+      "modifiers": []
+    },
+    "generic.step_height": {
+      "value": 0.10000000149011612,
+      "modifiers": []
+    }
+  }
+}
+Timestamp: 2025-02-05T23:55:01.414Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (39.52, 68.00, -101.79); Distance to bot: 5.52 blocks"
+Timestamp: 2025-02-05T23:55:02.264Z
+
+--- entityAttributes Event ---
+Entity attributes changed
+{
+  "id": 15,
+  "type": "player",
+  "attributes": {
+    "22": {
+      "value": 0,
+      "modifiers": []
+    },
+    "generic.attack_speed": {
+      "value": 4,
+      "modifiers": [
+        {
+          "uuid": "minecraft:base_attack_speed",
+          "amount": -3.200000047683716,
+          "operation": 0
+        }
+      ]
+    },
+    "generic.flying_speed": {
+      "value": 3,
+      "modifiers": []
+    },
+    "player.block_interaction_range": {
+      "value": 4.5,
+      "modifiers": []
+    },
+    "generic.step_height": {
+      "value": 0.10000000149011612,
+      "modifiers": [
+        {
+          "uuid": "minecraft:sprinting",
+          "amount": 0.30000001192092896,
+          "operation": 2
+        }
+      ]
+    }
+  }
+}
+Timestamp: 2025-02-05T23:55:02.664Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (34.83, 68.50, -101.67); Distance to bot: 1.49 blocks"
+Timestamp: 2025-02-05T23:55:03.364Z
+
+--- entityAttributes Event ---
+Entity attributes changed
+{
+  "id": 15,
+  "type": "player",
+  "attributes": {
+    "22": {
+      "value": 0,
+      "modifiers": []
+    },
+    "generic.attack_speed": {
+      "value": 4,
+      "modifiers": [
+        {
+          "uuid": "minecraft:base_attack_speed",
+          "amount": -3.200000047683716,
+          "operation": 0
+        }
+      ]
+    },
+    "generic.flying_speed": {
+      "value": 3,
+      "modifiers": []
+    },
+    "player.block_interaction_range": {
+      "value": 4.5,
+      "modifiers": []
+    },
+    "generic.step_height": {
+      "value": 0.10000000149011612,
+      "modifiers": []
+    }
+  }
+}
+Timestamp: 2025-02-05T23:55:04.264Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (30.02, 69.02, -103.44); Distance to bot: 4.25 blocks"
+Timestamp: 2025-02-05T23:55:04.463Z
+
+--- entityAttributes Event ---
+Entity attributes changed
+{
+  "id": 15,
+  "type": "player",
+  "attributes": {
+    "22": {
+      "value": 0,
+      "modifiers": []
+    },
+    "generic.attack_speed": {
+      "value": 4,
+      "modifiers": [
+        {
+          "uuid": "minecraft:base_attack_speed",
+          "amount": -3.200000047683716,
+          "operation": 0
+        }
+      ]
+    },
+    "generic.flying_speed": {
+      "value": 3,
+      "modifiers": []
+    },
+    "player.block_interaction_range": {
+      "value": 4.5,
+      "modifiers": []
+    },
+    "generic.step_height": {
+      "value": 0.10000000149011612,
+      "modifiers": [
+        {
+          "uuid": "minecraft:sprinting",
+          "amount": 0.30000001192092896,
+          "operation": 2
+        }
+      ]
+    }
+  }
+}
+Timestamp: 2025-02-05T23:55:04.913Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (33.07, 68.42, -101.72); Distance to bot: 1.61 blocks"
+Timestamp: 2025-02-05T23:55:05.566Z
+
+--- entityAttributes Event ---
+Entity attributes changed
+{
+  "id": 15,
+  "type": "player",
+  "attributes": {
+    "22": {
+      "value": 0,
+      "modifiers": []
+    },
+    "generic.attack_speed": {
+      "value": 4,
+      "modifiers": [
+        {
+          "uuid": "minecraft:base_attack_speed",
+          "amount": -3.200000047683716,
+          "operation": 0
+        }
+      ]
+    },
+    "generic.flying_speed": {
+      "value": 3,
+      "modifiers": []
+    },
+    "player.block_interaction_range": {
+      "value": 4.5,
+      "modifiers": []
+    },
+    "generic.step_height": {
+      "value": 0.10000000149011612,
+      "modifiers": []
+    }
+  }
+}
+Timestamp: 2025-02-05T23:55:06.513Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (39.52, 68.12, -102.14); Distance to bot: 5.46 blocks"
+Timestamp: 2025-02-05T23:55:06.663Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (40.03, 68.00, -102.35); Distance to bot: 5.95 blocks"
+Timestamp: 2025-02-05T23:55:07.763Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (40.03, 68.00, -102.35); Distance to bot: 5.95 blocks"
+Timestamp: 2025-02-05T23:55:11.663Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (40.03, 68.00, -102.35); Distance to bot: 5.95 blocks"
+Timestamp: 2025-02-05T23:55:14.663Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (40.03, 68.00, -102.35); Distance to bot: 5.95 blocks"
+Timestamp: 2025-02-05T23:55:17.667Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (40.03, 68.00, -102.35); Distance to bot: 5.95 blocks"
+Timestamp: 2025-02-05T23:55:20.664Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (40.03, 68.00, -102.35); Distance to bot: 5.95 blocks"
+Timestamp: 2025-02-05T23:55:23.663Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (40.03, 68.00, -102.35); Distance to bot: 5.95 blocks"
+Timestamp: 2025-02-05T23:55:26.668Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (40.03, 68.00, -102.35); Distance to bot: 5.95 blocks"
+Timestamp: 2025-02-05T23:55:29.663Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (40.03, 68.00, -102.35); Distance to bot: 5.95 blocks"
+Timestamp: 2025-02-05T23:55:32.663Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (40.03, 68.00, -102.35); Distance to bot: 5.95 blocks"
+Timestamp: 2025-02-05T23:55:35.664Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (40.03, 68.00, -102.35); Distance to bot: 5.95 blocks"
+Timestamp: 2025-02-05T23:55:38.664Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (40.03, 68.00, -102.35); Distance to bot: 5.95 blocks"
+Timestamp: 2025-02-05T23:55:41.665Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (40.03, 68.00, -102.35); Distance to bot: 5.95 blocks"
+Timestamp: 2025-02-05T23:55:44.663Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (40.03, 68.00, -102.35); Distance to bot: 5.95 blocks"
+Timestamp: 2025-02-05T23:55:46.863Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (40.03, 68.00, -102.35); Distance to bot: 5.95 blocks"
+Timestamp: 2025-02-05T23:55:50.663Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (40.03, 68.00, -102.35); Distance to bot: 5.95 blocks"
+Timestamp: 2025-02-05T23:55:53.664Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (40.03, 68.00, -102.35); Distance to bot: 5.95 blocks"
+Timestamp: 2025-02-05T23:55:56.664Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (40.03, 68.00, -102.35); Distance to bot: 5.95 blocks"
+Timestamp: 2025-02-05T23:55:59.664Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (40.03, 68.00, -102.35); Distance to bot: 5.95 blocks"
+Timestamp: 2025-02-05T23:56:02.664Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (40.03, 68.00, -102.35); Distance to bot: 5.95 blocks"
+Timestamp: 2025-02-05T23:56:05.662Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (40.03, 68.00, -102.35); Distance to bot: 5.95 blocks"
+Timestamp: 2025-02-05T23:56:08.663Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (40.03, 68.00, -102.35); Distance to bot: 5.95 blocks"
+Timestamp: 2025-02-05T23:56:11.663Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (40.03, 68.00, -102.35); Distance to bot: 5.95 blocks"
+Timestamp: 2025-02-05T23:56:14.663Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (40.03, 68.00, -102.35); Distance to bot: 5.95 blocks"
+Timestamp: 2025-02-05T23:56:17.664Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (40.03, 68.00, -102.35); Distance to bot: 5.95 blocks"
+Timestamp: 2025-02-05T23:56:20.668Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (40.03, 68.00, -102.35); Distance to bot: 5.95 blocks"
+Timestamp: 2025-02-05T23:56:23.663Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (40.03, 68.00, -102.35); Distance to bot: 5.95 blocks"
+Timestamp: 2025-02-05T23:56:26.663Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (40.03, 68.00, -102.35); Distance to bot: 5.95 blocks"
+Timestamp: 2025-02-05T23:56:29.663Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (40.03, 68.00, -102.35); Distance to bot: 5.95 blocks"
+Timestamp: 2025-02-05T23:56:32.663Z
+
+--- entityHurt Event ---
+Entity hurt detected
+{
+  "entity": {
+    "id": 30323,
+    "type": "ambient",
+    "name": "bat"
+  },
+  "botHealth": 20
+}
+Timestamp: 2025-02-05T23:56:33.814Z
+
+--- entityHurt Event ---
+Entity hurt detected
+{
+  "entity": {
+    "id": 30323,
+    "type": "ambient",
+    "name": "bat"
+  },
+  "botHealth": 20
+}
+Timestamp: 2025-02-05T23:56:34.863Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (40.03, 68.00, -102.35); Distance to bot: 5.95 blocks"
+Timestamp: 2025-02-05T23:56:35.665Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (40.03, 68.00, -102.35); Distance to bot: 5.95 blocks"
+Timestamp: 2025-02-05T23:56:38.664Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (40.03, 68.00, -102.35); Distance to bot: 5.95 blocks"
+Timestamp: 2025-02-05T23:56:41.665Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (40.03, 68.00, -102.35); Distance to bot: 5.95 blocks"
+Timestamp: 2025-02-05T23:56:44.663Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (40.03, 68.00, -102.35); Distance to bot: 5.95 blocks"
+Timestamp: 2025-02-05T23:56:47.662Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (40.03, 68.00, -102.35); Distance to bot: 5.95 blocks"
+Timestamp: 2025-02-05T23:56:50.664Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (40.03, 68.00, -102.35); Distance to bot: 5.95 blocks"
+Timestamp: 2025-02-05T23:56:53.662Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (40.03, 68.00, -102.35); Distance to bot: 5.95 blocks"
+Timestamp: 2025-02-05T23:56:56.665Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (40.03, 68.00, -102.35); Distance to bot: 5.95 blocks"
+Timestamp: 2025-02-05T23:56:59.663Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (40.03, 68.00, -102.35); Distance to bot: 5.95 blocks"
+Timestamp: 2025-02-05T23:57:02.663Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (40.03, 68.00, -102.35); Distance to bot: 5.95 blocks"
+Timestamp: 2025-02-05T23:57:05.663Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (40.03, 68.00, -102.35); Distance to bot: 5.95 blocks"
+Timestamp: 2025-02-05T23:57:07.063Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (40.03, 68.00, -102.35); Distance to bot: 5.95 blocks"
+Timestamp: 2025-02-05T23:57:08.664Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (40.03, 68.00, -102.35); Distance to bot: 5.95 blocks"
+Timestamp: 2025-02-05T23:57:11.663Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (40.03, 68.00, -102.35); Distance to bot: 5.95 blocks"
+Timestamp: 2025-02-05T23:57:14.662Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (40.03, 68.00, -102.35); Distance to bot: 5.95 blocks"
+Timestamp: 2025-02-05T23:57:17.665Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (40.03, 68.00, -102.35); Distance to bot: 5.95 blocks"
+Timestamp: 2025-02-05T23:57:20.664Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (40.03, 68.00, -102.35); Distance to bot: 5.95 blocks"
+Timestamp: 2025-02-05T23:57:23.663Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (40.03, 68.00, -102.35); Distance to bot: 5.95 blocks"
+Timestamp: 2025-02-05T23:57:26.666Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (40.03, 68.00, -102.35); Distance to bot: 5.95 blocks"
+Timestamp: 2025-02-05T23:57:29.663Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (40.03, 68.00, -102.35); Distance to bot: 5.95 blocks"
+Timestamp: 2025-02-05T23:57:32.664Z
+
+--- entityMoved Event ---
+Entity: ColorlessDreamer (ID: 15) moved
+"Position: (40.03, 68.00, -102.35); Distance to bot: 5.95 blocks"
+Timestamp: 2025-02-05T23:57:35.664Z
+EVENT_MARKER:entityAttributes --- Entity attributes changed
+{
+  "id": 30468,
+  "type": "player",
+  "attributes": {
+    "22": {
+      "value": 0,
+      "modifiers": []
+    },
+    "player.block_interaction_range": {
+      "value": 4.5,
+      "modifiers": []
+    },
+    "generic.flying_speed": {
+      "value": 3,
+      "modifiers": []
+    },
+    "generic.step_height": {
+      "value": 0.10000000149011612,
+      "modifiers": []
+    }
+  }
+}
+Timestamp: 2025-02-05T23:57:40.818Z
+
+EVENT_MARKER:entityAttributes --- Entity attributes changed
+{
+  "id": 15,
+  "type": "player",
+  "attributes": {
+    "22": {
+      "value": 0,
+      "modifiers": []
+    },
+    "generic.attack_speed": {
+      "value": 4,
+      "modifiers": [
+        {
+          "uuid": "minecraft:base_attack_speed",
+          "amount": -3.200000047683716,
+          "operation": 0
+        }
+      ]
+    },
+    "generic.flying_speed": {
+      "value": 3,
+      "modifiers": []
+    },
+    "player.block_interaction_range": {
+      "value": 4.5,
+      "modifiers": []
+    },
+    "generic.step_height": {
+      "value": 0.10000000149011612,
+      "modifiers": []
+    }
+  }
+}
+Timestamp: 2025-02-05T23:57:41.026Z
+
+EVENT_MARKER:entityEquip --- Entity changed equipment
+{
+  "id": 15,
+  "type": "player",
+  "equipment": [
+    {
+      "type": 852,
+      "count": 1,
+      "metadata": 0,
+      "nbt": {
+        "type": "compound",
+        "name": "",
+        "value": {
+          "Damage": {
+            "type": "int",
+            "value": 0
+          }
+        }
+      },
+      "components": [
+        {
+          "type": "damage",
+          "data": 22
+        }
+      ],
+      "removedComponents": [],
+      "componentMap": {},
+      "stackId": null,
+      "name": "wooden_axe",
+      "displayName": "Wooden Axe",
+      "stackSize": 1,
+      "maxDurability": 59
+    },
+    null,
+    null,
+    null,
+    null
+  ]
+}
+Timestamp: 2025-02-05T23:57:41.028Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (40.03, 68.00, -102.35); Distance to bot: 5.95 blocks"
+Timestamp: 2025-02-05T23:57:41.667Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (40.03, 68.00, -102.35); Distance to bot: 5.95 blocks"
+Timestamp: 2025-02-05T23:57:44.664Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (40.03, 68.00, -102.35); Distance to bot: 5.95 blocks"
+Timestamp: 2025-02-05T23:57:47.164Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (40.03, 68.00, -102.35); Distance to bot: 5.95 blocks"
+Timestamp: 2025-02-05T23:57:50.663Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (40.03, 68.00, -102.35); Distance to bot: 5.95 blocks"
+Timestamp: 2025-02-05T23:57:53.663Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (40.03, 68.00, -102.35); Distance to bot: 5.95 blocks"
+Timestamp: 2025-02-05T23:57:56.665Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (40.03, 68.00, -102.35); Distance to bot: 5.95 blocks"
+Timestamp: 2025-02-05T23:57:59.665Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (40.03, 68.00, -102.35); Distance to bot: 5.95 blocks"
+Timestamp: 2025-02-05T23:58:02.667Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (40.03, 68.00, -102.35); Distance to bot: 5.95 blocks"
+Timestamp: 2025-02-05T23:58:05.664Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (40.03, 68.00, -102.35); Distance to bot: 5.95 blocks"
+Timestamp: 2025-02-05T23:58:08.665Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (40.03, 68.00, -102.35); Distance to bot: 5.95 blocks"
+Timestamp: 2025-02-05T23:58:11.663Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (40.03, 68.00, -102.35); Distance to bot: 5.95 blocks"
+Timestamp: 2025-02-05T23:58:14.665Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (40.03, 68.00, -102.35); Distance to bot: 5.95 blocks"
+Timestamp: 2025-02-05T23:58:17.664Z
+
+EVENT_MARKER:entityAttributes --- Entity attributes changed
+{
+  "id": 15,
+  "type": "player",
+  "attributes": {
+    "22": {
+      "value": 0,
+      "modifiers": []
+    },
+    "generic.attack_speed": {
+      "value": 4,
+      "modifiers": [
+        {
+          "uuid": "minecraft:base_attack_speed",
+          "amount": -3.200000047683716,
+          "operation": 0
+        }
+      ]
+    },
+    "generic.flying_speed": {
+      "value": 3,
+      "modifiers": []
+    },
+    "player.block_interaction_range": {
+      "value": 4.5,
+      "modifiers": []
+    },
+    "generic.step_height": {
+      "value": 0.10000000149011612,
+      "modifiers": [
+        {
+          "uuid": "minecraft:sprinting",
+          "amount": 0.30000001192092896,
+          "operation": 2
+        }
+      ]
+    }
+  }
+}
+Timestamp: 2025-02-05T23:58:18.465Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (38.21, 68.00, -102.62); Distance to bot: 4.11 blocks"
+Timestamp: 2025-02-05T23:58:18.764Z
+
+EVENT_MARKER:entityAttributes --- Entity attributes changed
+{
+  "id": 15,
+  "type": "player",
+  "attributes": {
+    "22": {
+      "value": 0,
+      "modifiers": []
+    },
+    "generic.attack_speed": {
+      "value": 4,
+      "modifiers": [
+        {
+          "uuid": "minecraft:base_attack_speed",
+          "amount": -3.200000047683716,
+          "operation": 0
+        }
+      ]
+    },
+    "generic.flying_speed": {
+      "value": 3,
+      "modifiers": []
+    },
+    "player.block_interaction_range": {
+      "value": 4.5,
+      "modifiers": []
+    },
+    "generic.step_height": {
+      "value": 0.10000000149011612,
+      "modifiers": []
+    }
+  }
+}
+Timestamp: 2025-02-05T23:58:19.064Z
+
+EVENT_MARKER:entityAttributes --- Entity attributes changed
+{
+  "id": 15,
+  "type": "player",
+  "attributes": {
+    "22": {
+      "value": 0,
+      "modifiers": []
+    },
+    "generic.attack_speed": {
+      "value": 4,
+      "modifiers": [
+        {
+          "uuid": "minecraft:base_attack_speed",
+          "amount": -3.200000047683716,
+          "operation": 0
+        }
+      ]
+    },
+    "generic.flying_speed": {
+      "value": 3,
+      "modifiers": []
+    },
+    "player.block_interaction_range": {
+      "value": 4.5,
+      "modifiers": []
+    },
+    "generic.step_height": {
+      "value": 0.10000000149011612,
+      "modifiers": [
+        {
+          "uuid": "minecraft:sprinting",
+          "amount": 0.30000001192092896,
+          "operation": 2
+        }
+      ]
+    }
+  }
+}
+Timestamp: 2025-02-05T23:58:19.218Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (32.37, 69.02, -101.71); Distance to bot: 2.33 blocks"
+Timestamp: 2025-02-05T23:58:19.764Z
+
+EVENT_MARKER:entityAttributes --- Entity attributes changed
+{
+  "id": 15,
+  "type": "player",
+  "attributes": {
+    "22": {
+      "value": 0,
+      "modifiers": []
+    },
+    "generic.attack_speed": {
+      "value": 4,
+      "modifiers": [
+        {
+          "uuid": "minecraft:base_attack_speed",
+          "amount": -3.200000047683716,
+          "operation": 0
+        }
+      ]
+    },
+    "generic.flying_speed": {
+      "value": 3,
+      "modifiers": []
+    },
+    "player.block_interaction_range": {
+      "value": 4.5,
+      "modifiers": []
+    },
+    "generic.step_height": {
+      "value": 0.10000000149011612,
+      "modifiers": []
+    }
+  }
+}
+Timestamp: 2025-02-05T23:58:19.815Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (31.12, 68.00, -101.29); Distance to bot: 3.38 blocks"
+Timestamp: 2025-02-05T23:58:20.864Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (33.39, 67.00, -100.26); Distance to bot: 2.89 blocks"
+Timestamp: 2025-02-05T23:58:21.964Z
+
+EVENT_MARKER:entityAttributes --- Entity attributes changed
+{
+  "id": 15,
+  "type": "player",
+  "attributes": {
+    "22": {
+      "value": 0,
+      "modifiers": []
+    },
+    "generic.attack_speed": {
+      "value": 4,
+      "modifiers": [
+        {
+          "uuid": "minecraft:base_attack_speed",
+          "amount": -3.200000047683716,
+          "operation": 0
+        }
+      ]
+    },
+    "generic.flying_speed": {
+      "value": 3,
+      "modifiers": []
+    },
+    "player.block_interaction_range": {
+      "value": 4.5,
+      "modifiers": []
+    },
+    "generic.step_height": {
+      "value": 0.10000000149011612,
+      "modifiers": [
+        {
+          "uuid": "minecraft:sprinting",
+          "amount": 0.30000001192092896,
+          "operation": 2
+        }
+      ]
+    }
+  }
+}
+Timestamp: 2025-02-05T23:58:22.014Z
+
+EVENT_MARKER:entityAttributes --- Entity attributes changed
+{
+  "id": 15,
+  "type": "player",
+  "attributes": {
+    "22": {
+      "value": 0,
+      "modifiers": []
+    },
+    "generic.attack_speed": {
+      "value": 4,
+      "modifiers": [
+        {
+          "uuid": "minecraft:base_attack_speed",
+          "amount": -3.200000047683716,
+          "operation": 0
+        }
+      ]
+    },
+    "generic.flying_speed": {
+      "value": 3,
+      "modifiers": []
+    },
+    "player.block_interaction_range": {
+      "value": 4.5,
+      "modifiers": []
+    },
+    "generic.step_height": {
+      "value": 0.10000000149011612,
+      "modifiers": []
+    }
+  }
+}
+Timestamp: 2025-02-05T23:58:22.166Z
+
+EVENT_MARKER:entityAttributes --- Entity attributes changed
+{
+  "id": 15,
+  "type": "player",
+  "attributes": {
+    "22": {
+      "value": 0,
+      "modifiers": []
+    },
+    "generic.attack_speed": {
+      "value": 4,
+      "modifiers": [
+        {
+          "uuid": "minecraft:base_attack_speed",
+          "amount": -3.200000047683716,
+          "operation": 0
+        }
+      ]
+    },
+    "generic.flying_speed": {
+      "value": 3,
+      "modifiers": []
+    },
+    "player.block_interaction_range": {
+      "value": 4.5,
+      "modifiers": []
+    },
+    "generic.step_height": {
+      "value": 0.10000000149011612,
+      "modifiers": [
+        {
+          "uuid": "minecraft:sprinting",
+          "amount": 0.30000001192092896,
+          "operation": 2
+        }
+      ]
+    }
+  }
+}
+Timestamp: 2025-02-05T23:58:22.215Z
+
+EVENT_MARKER:entityAttributes --- Entity attributes changed
+{
+  "id": 15,
+  "type": "player",
+  "attributes": {
+    "22": {
+      "value": 0,
+      "modifiers": []
+    },
+    "generic.attack_speed": {
+      "value": 4,
+      "modifiers": [
+        {
+          "uuid": "minecraft:base_attack_speed",
+          "amount": -3.200000047683716,
+          "operation": 0
+        }
+      ]
+    },
+    "generic.flying_speed": {
+      "value": 3,
+      "modifiers": []
+    },
+    "player.block_interaction_range": {
+      "value": 4.5,
+      "modifiers": []
+    },
+    "generic.step_height": {
+      "value": 0.10000000149011612,
+      "modifiers": []
+    }
+  }
+}
+Timestamp: 2025-02-05T23:58:22.964Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (38.22, 68.12, -103.42); Distance to bot: 4.16 blocks"
+Timestamp: 2025-02-05T23:58:23.064Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (38.45, 68.00, -102.76); Distance to bot: 4.34 blocks"
+Timestamp: 2025-02-05T23:58:24.163Z
+
+EVENT_MARKER:entityAttributes --- Entity attributes changed
+{
+  "id": 15,
+  "type": "player",
+  "attributes": {
+    "22": {
+      "value": 0,
+      "modifiers": []
+    },
+    "generic.attack_speed": {
+      "value": 4,
+      "modifiers": [
+        {
+          "uuid": "minecraft:base_attack_speed",
+          "amount": -3.200000047683716,
+          "operation": 0
+        }
+      ]
+    },
+    "generic.flying_speed": {
+      "value": 3,
+      "modifiers": []
+    },
+    "player.block_interaction_range": {
+      "value": 4.5,
+      "modifiers": []
+    },
+    "generic.step_height": {
+      "value": 0.10000000149011612,
+      "modifiers": [
+        {
+          "uuid": "minecraft:sprinting",
+          "amount": 0.30000001192092896,
+          "operation": 2
+        }
+      ]
+    }
+  }
+}
+Timestamp: 2025-02-05T23:58:24.164Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (32.42, 69.00, -102.70); Distance to bot: 1.97 blocks"
+Timestamp: 2025-02-05T23:58:25.164Z
+
+EVENT_MARKER:entityAttributes --- Entity attributes changed
+{
+  "id": 15,
+  "type": "player",
+  "attributes": {
+    "22": {
+      "value": 0,
+      "modifiers": []
+    },
+    "generic.attack_speed": {
+      "value": 4,
+      "modifiers": [
+        {
+          "uuid": "minecraft:base_attack_speed",
+          "amount": -3.200000047683716,
+          "operation": 0
+        }
+      ]
+    },
+    "generic.flying_speed": {
+      "value": 3,
+      "modifiers": []
+    },
+    "player.block_interaction_range": {
+      "value": 4.5,
+      "modifiers": []
+    },
+    "generic.step_height": {
+      "value": 0.10000000149011612,
+      "modifiers": []
+    }
+  }
+}
+Timestamp: 2025-02-05T23:58:25.665Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (28.90, 68.00, -102.70); Distance to bot: 5.21 blocks"
+Timestamp: 2025-02-05T23:58:26.665Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (28.90, 68.00, -102.70); Distance to bot: 5.21 blocks"
+Timestamp: 2025-02-05T23:58:27.863Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (27.33, 68.00, -101.40); Distance to bot: 6.93 blocks"
+Timestamp: 2025-02-05T23:58:28.963Z
+
+EVENT_MARKER:entityAttributes --- Entity attributes changed
+{
+  "id": 15,
+  "type": "player",
+  "attributes": {
+    "22": {
+      "value": 0,
+      "modifiers": []
+    },
+    "generic.attack_speed": {
+      "value": 4,
+      "modifiers": [
+        {
+          "uuid": "minecraft:base_attack_speed",
+          "amount": -3.200000047683716,
+          "operation": 0
+        }
+      ]
+    },
+    "generic.flying_speed": {
+      "value": 3,
+      "modifiers": []
+    },
+    "player.block_interaction_range": {
+      "value": 4.5,
+      "modifiers": []
+    },
+    "generic.step_height": {
+      "value": 0.10000000149011612,
+      "modifiers": [
+        {
+          "uuid": "minecraft:sprinting",
+          "amount": 0.30000001192092896,
+          "operation": 2
+        }
+      ]
+    }
+  }
+}
+Timestamp: 2025-02-05T23:58:29.914Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (27.16, 68.00, -101.26); Distance to bot: 7.13 blocks"
+Timestamp: 2025-02-05T23:58:29.964Z
+
+EVENT_MARKER:entityAttributes --- Entity attributes changed
+{
+  "id": 15,
+  "type": "player",
+  "attributes": {
+    "22": {
+      "value": 0,
+      "modifiers": []
+    },
+    "generic.attack_speed": {
+      "value": 4,
+      "modifiers": [
+        {
+          "uuid": "minecraft:base_attack_speed",
+          "amount": -3.200000047683716,
+          "operation": 0
+        }
+      ]
+    },
+    "generic.flying_speed": {
+      "value": 3,
+      "modifiers": []
+    },
+    "player.block_interaction_range": {
+      "value": 4.5,
+      "modifiers": []
+    },
+    "generic.step_height": {
+      "value": 0.10000000149011612,
+      "modifiers": []
+    }
+  }
+}
+Timestamp: 2025-02-05T23:58:30.913Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (32.38, 68.00, -101.14); Distance to bot: 2.45 blocks"
+Timestamp: 2025-02-05T23:58:31.064Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (32.41, 68.00, -101.14); Distance to bot: 2.43 blocks"
+Timestamp: 2025-02-05T23:58:32.663Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (32.41, 68.00, -101.14); Distance to bot: 2.43 blocks"
+Timestamp: 2025-02-05T23:58:35.664Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (32.41, 68.00, -101.14); Distance to bot: 2.43 blocks"
+Timestamp: 2025-02-05T23:58:38.664Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (32.41, 68.00, -101.14); Distance to bot: 2.43 blocks"
+Timestamp: 2025-02-05T23:58:41.664Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (32.41, 68.00, -101.14); Distance to bot: 2.43 blocks"
+Timestamp: 2025-02-05T23:58:44.664Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (32.41, 68.00, -101.14); Distance to bot: 2.43 blocks"
+Timestamp: 2025-02-05T23:58:47.663Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (32.41, 68.00, -101.14); Distance to bot: 2.43 blocks"
+Timestamp: 2025-02-05T23:58:50.663Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (32.41, 68.00, -101.14); Distance to bot: 2.43 blocks"
+Timestamp: 2025-02-05T23:58:53.663Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (32.41, 68.00, -101.14); Distance to bot: 2.43 blocks"
+Timestamp: 2025-02-05T23:58:56.663Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (32.41, 68.00, -101.14); Distance to bot: 2.43 blocks"
+Timestamp: 2025-02-05T23:58:59.663Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (32.41, 68.00, -101.14); Distance to bot: 2.43 blocks"
+Timestamp: 2025-02-05T23:59:02.665Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (32.41, 68.00, -101.14); Distance to bot: 2.43 blocks"
+Timestamp: 2025-02-05T23:59:05.564Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (32.41, 68.00, -101.14); Distance to bot: 2.43 blocks"
+Timestamp: 2025-02-05T23:59:08.663Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (32.41, 68.00, -101.14); Distance to bot: 2.43 blocks"
+Timestamp: 2025-02-05T23:59:11.663Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (32.41, 68.00, -101.14); Distance to bot: 2.43 blocks"
+Timestamp: 2025-02-05T23:59:14.663Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (32.41, 68.00, -101.14); Distance to bot: 2.43 blocks"
+Timestamp: 2025-02-05T23:59:17.663Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (32.41, 68.00, -101.14); Distance to bot: 2.43 blocks"
+Timestamp: 2025-02-05T23:59:20.664Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (32.41, 68.00, -101.14); Distance to bot: 2.43 blocks"
+Timestamp: 2025-02-05T23:59:23.665Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (32.41, 68.00, -101.14); Distance to bot: 2.43 blocks"
+Timestamp: 2025-02-05T23:59:26.663Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (32.41, 68.00, -101.14); Distance to bot: 2.43 blocks"
+Timestamp: 2025-02-05T23:59:29.663Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (32.41, 68.00, -101.14); Distance to bot: 2.43 blocks"
+Timestamp: 2025-02-05T23:59:32.663Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (32.41, 68.00, -101.14); Distance to bot: 2.43 blocks"
+Timestamp: 2025-02-05T23:59:35.663Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (32.41, 68.00, -101.14); Distance to bot: 2.43 blocks"
+Timestamp: 2025-02-05T23:59:38.664Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (32.41, 68.00, -101.14); Distance to bot: 2.43 blocks"
+Timestamp: 2025-02-05T23:59:41.665Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (32.41, 68.00, -101.14); Distance to bot: 2.43 blocks"
+Timestamp: 2025-02-05T23:59:44.664Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (32.41, 68.00, -101.14); Distance to bot: 2.43 blocks"
+Timestamp: 2025-02-05T23:59:47.663Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (32.41, 68.00, -101.14); Distance to bot: 2.43 blocks"
+Timestamp: 2025-02-05T23:59:50.664Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (32.41, 68.00, -101.14); Distance to bot: 2.43 blocks"
+Timestamp: 2025-02-05T23:59:53.662Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (32.41, 68.00, -101.14); Distance to bot: 2.43 blocks"
+Timestamp: 2025-02-05T23:59:56.665Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (32.41, 68.00, -101.14); Distance to bot: 2.43 blocks"
+Timestamp: 2025-02-05T23:59:59.663Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (32.41, 68.00, -101.14); Distance to bot: 2.43 blocks"
+Timestamp: 2025-02-06T00:00:02.663Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (32.41, 68.00, -101.14); Distance to bot: 2.43 blocks"
+Timestamp: 2025-02-06T00:00:05.664Z
+
+EVENT_MARKER:entityHurt --- Entity hurt detected
+{
+  "entity": {
+    "id": 30709,
+    "type": "ambient",
+    "name": "bat"
+  },
+  "botHealth": 20
+}
+Timestamp: 2025-02-06T00:00:06.620Z
+
+EVENT_MARKER:entityHurt --- Entity hurt detected
+{
+  "entity": {
+    "id": 30709,
+    "type": "ambient",
+    "name": "bat"
+  },
+  "botHealth": 20
+}
+Timestamp: 2025-02-06T00:00:07.563Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (32.41, 68.00, -101.14); Distance to bot: 2.43 blocks"
+Timestamp: 2025-02-06T00:00:08.663Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (32.41, 68.00, -101.14); Distance to bot: 2.43 blocks"
+Timestamp: 2025-02-06T00:00:11.664Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (32.41, 68.00, -101.14); Distance to bot: 2.43 blocks"
+Timestamp: 2025-02-06T00:00:14.665Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (32.41, 68.00, -101.14); Distance to bot: 2.43 blocks"
+Timestamp: 2025-02-06T00:00:17.663Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (32.41, 68.00, -101.14); Distance to bot: 2.43 blocks"
+Timestamp: 2025-02-06T00:00:20.663Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (32.41, 68.00, -101.14); Distance to bot: 2.43 blocks"
+Timestamp: 2025-02-06T00:00:23.663Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (32.41, 68.00, -101.14); Distance to bot: 2.43 blocks"
+Timestamp: 2025-02-06T00:00:25.768Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (32.41, 68.00, -101.14); Distance to bot: 2.43 blocks"
+Timestamp: 2025-02-06T00:00:29.663Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (32.41, 68.00, -101.14); Distance to bot: 2.43 blocks"
+Timestamp: 2025-02-06T00:00:32.663Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (32.41, 68.00, -101.14); Distance to bot: 2.43 blocks"
+Timestamp: 2025-02-06T00:00:35.662Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (32.41, 68.00, -101.14); Distance to bot: 2.43 blocks"
+Timestamp: 2025-02-06T00:00:38.662Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (32.41, 68.00, -101.14); Distance to bot: 2.43 blocks"
+Timestamp: 2025-02-06T00:00:41.662Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (32.41, 68.00, -101.14); Distance to bot: 2.43 blocks"
+Timestamp: 2025-02-06T00:00:44.663Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (32.41, 68.00, -101.14); Distance to bot: 2.43 blocks"
+Timestamp: 2025-02-06T00:00:47.663Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (32.41, 68.00, -101.14); Distance to bot: 2.43 blocks"
+Timestamp: 2025-02-06T00:00:50.663Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (32.41, 68.00, -101.14); Distance to bot: 2.43 blocks"
+Timestamp: 2025-02-06T00:00:53.663Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (32.41, 68.00, -101.14); Distance to bot: 2.43 blocks"
+Timestamp: 2025-02-06T00:00:56.663Z
+
+EVENT_MARKER:entityAttributes --- Entity attributes changed
+{
+  "id": 30822,
+  "type": "player",
+  "attributes": {
+    "22": {
+      "value": 0,
+      "modifiers": []
+    },
+    "player.block_interaction_range": {
+      "value": 4.5,
+      "modifiers": []
+    },
+    "generic.flying_speed": {
+      "value": 3,
+      "modifiers": []
+    },
+    "generic.step_height": {
+      "value": 0.10000000149011612,
+      "modifiers": []
+    }
+  }
+}
+Timestamp: 2025-02-06T00:01:00.475Z
+
+EVENT_MARKER:entityAttributes --- Entity attributes changed
+{
+  "id": 15,
+  "type": "player",
+  "attributes": {
+    "22": {
+      "value": 0,
+      "modifiers": []
+    },
+    "generic.attack_speed": {
+      "value": 4,
+      "modifiers": [
+        {
+          "uuid": "minecraft:base_attack_speed",
+          "amount": -3.200000047683716,
+          "operation": 0
+        }
+      ]
+    },
+    "generic.flying_speed": {
+      "value": 3,
+      "modifiers": []
+    },
+    "player.block_interaction_range": {
+      "value": 4.5,
+      "modifiers": []
+    },
+    "generic.step_height": {
+      "value": 0.10000000149011612,
+      "modifiers": []
+    }
+  }
+}
+Timestamp: 2025-02-06T00:01:01.194Z
+
+EVENT_MARKER:entityEquip --- Entity changed equipment
+{
+  "id": 15,
+  "type": "player",
+  "equipment": [
+    {
+      "type": 852,
+      "count": 1,
+      "metadata": 0,
+      "nbt": {
+        "type": "compound",
+        "name": "",
+        "value": {
+          "Damage": {
+            "type": "int",
+            "value": 0
+          }
+        }
+      },
+      "components": [
+        {
+          "type": "damage",
+          "data": 22
+        }
+      ],
+      "removedComponents": [],
+      "componentMap": {},
+      "stackId": null,
+      "name": "wooden_axe",
+      "displayName": "Wooden Axe",
+      "stackSize": 1,
+      "maxDurability": 59
+    },
+    null,
+    null,
+    null,
+    null
+  ]
+}
+Timestamp: 2025-02-06T00:01:01.195Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (32.41, 68.00, -101.14); Distance to bot: 2.43 blocks"
+Timestamp: 2025-02-06T00:01:02.664Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (32.41, 68.00, -101.14); Distance to bot: 2.43 blocks"
+Timestamp: 2025-02-06T00:01:05.663Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (32.41, 68.00, -101.14); Distance to bot: 2.43 blocks"
+Timestamp: 2025-02-06T00:01:08.665Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (32.41, 68.00, -101.14); Distance to bot: 2.43 blocks"
+Timestamp: 2025-02-06T00:01:11.664Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (32.41, 68.00, -101.14); Distance to bot: 2.43 blocks"
+Timestamp: 2025-02-06T00:01:14.663Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (32.41, 68.00, -101.14); Distance to bot: 2.43 blocks"
+Timestamp: 2025-02-06T00:01:17.664Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (32.41, 68.00, -101.14); Distance to bot: 2.43 blocks"
+Timestamp: 2025-02-06T00:01:20.662Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (32.41, 68.00, -101.14); Distance to bot: 2.43 blocks"
+Timestamp: 2025-02-06T00:01:23.663Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (32.41, 68.00, -101.14); Distance to bot: 2.43 blocks"
+Timestamp: 2025-02-06T00:01:26.663Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (32.41, 68.00, -101.14); Distance to bot: 2.43 blocks"
+Timestamp: 2025-02-06T00:01:29.667Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (32.41, 68.00, -101.14); Distance to bot: 2.43 blocks"
+Timestamp: 2025-02-06T00:01:32.662Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (32.41, 68.00, -101.14); Distance to bot: 2.43 blocks"
+Timestamp: 2025-02-06T00:01:35.663Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (32.41, 68.00, -101.14); Distance to bot: 2.43 blocks"
+Timestamp: 2025-02-06T00:01:38.665Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (32.41, 68.00, -101.14); Distance to bot: 2.43 blocks"
+Timestamp: 2025-02-06T00:01:41.664Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (32.41, 68.00, -101.14); Distance to bot: 2.43 blocks"
+Timestamp: 2025-02-06T00:01:44.666Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (32.41, 68.00, -101.14); Distance to bot: 2.43 blocks"
+Timestamp: 2025-02-06T00:01:45.965Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (32.41, 68.00, -101.14); Distance to bot: 2.43 blocks"
+Timestamp: 2025-02-06T00:01:47.663Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (32.41, 68.00, -101.14); Distance to bot: 2.43 blocks"
+Timestamp: 2025-02-06T00:01:50.664Z
+
+EVENT_MARKER:entityHurt --- Entity hurt detected
+{
+  "entity": {
+    "id": 30899,
+    "type": "ambient",
+    "name": "bat"
+  },
+  "botHealth": 20
+}
+Timestamp: 2025-02-06T00:01:52.465Z
+
+EVENT_MARKER:entityHurt --- Entity hurt detected
+{
+  "entity": {
+    "id": 30899,
+    "type": "ambient",
+    "name": "bat"
+  },
+  "botHealth": 20
+}
+Timestamp: 2025-02-06T00:01:53.115Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (32.41, 68.00, -101.14); Distance to bot: 2.43 blocks"
+Timestamp: 2025-02-06T00:01:53.663Z
+
+EVENT_MARKER:entityMoved --- Entity: ColorlessDreamer (ID: 15) moved
+"Position: (32.41, 68.00, -101.14); Distance to bot: 2.43 blocks"
+Timestamp: 2025-02-06T00:01:56.664Z
+
