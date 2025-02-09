@@ -1,8 +1,10 @@
 import { Bot, BotOptions, BotEvents, createBot } from 'mineflayer'
 import { Entity } from 'prismarine-entity'
-import { pathfinder, goals } from 'mineflayer-pathfinder'
+import pkg from 'mineflayer-pathfinder'
 import express, { Request, Response } from 'express'
 import { Vec3 } from 'vec3'
+
+const { pathfinder, goals } = pkg
 
 // Core interfaces
 interface Message {
