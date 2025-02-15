@@ -4,7 +4,7 @@ from control.controller import Controller
 from control.base_models import SenseData
 
 
-def main() -> None:
+def main(character_prompt: str = "junko_prompt.txt") -> None:
     ctrl = Controller()
     last_message_content = None
 

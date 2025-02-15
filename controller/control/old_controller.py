@@ -13,22 +13,15 @@ from langgraph.graph import StateGraph, START, END
 from langgraph.checkpoint.memory import MemorySaver
 
 from control.settings import settings
-from control.base_models import (
-    SenseData,
-    Action,
-    ActionType,
-    ChatAction,
-    MoveAction,
-    NullAction,
-    DanceAction
-)
+from control.base_models import *
+
 from .llm_node import LLMNode
 
 logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.WARNING)
 
 class Controller:
-    def __init__(self) -> None:
+    def __init__(self, character_prompt: str = "junko_prompt.txt") -> None:
         self.base_url = f"{settings.agent_origin}:{settings.agent_port}"
         self.total_prompt_tokens = 0
         self.total_completion_tokens = 0
@@ -36,9 +29,10 @@ class Controller:
         self.error_count = 0
         self.last_valid_response = None
 
-        # Load system prompt once.
-        with open(settings.prompt_template_dir / settings.system_prompt_file, 'r') as f:
+        # Load character prompt
+        with open(settings.prompt_template_dir / character_prompt, 'r') as f:
             system_prompt: str = f.read()
+
 
         # Initialize your LLM chain.
         model = ChatOpenAI(model=settings.openai_model, openai_api_key=settings.openai_api_key)
@@ -153,7 +147,9 @@ class Controller:
     def act(self, action: Action) -> None:
         """Dispatch an action to the agent."""
         try:
+            logger.info(f"Received action: {action}")
             validated_action = ActionType.validate_python(action)
+            logger.info(f"Validated action: {validated_action}")
         except pydantic.ValidationError as e:
             logger.error(f"Invalid action: {e}")
             return
