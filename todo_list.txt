@@ -4,18 +4,23 @@
 EntityHurt tracks all entities that have been hurt.
 EntityAttribute tracks me and probably other entities far away as well
 Technicall toadd, but BRO CAN'T SWIM
+The follow action seems broken
 
 
 ##TOADD
 Next implementations:
-- Slight wandering when idle
--Looking around when idle
+- (DONE) **Slight wandering when idle**
+- (DONE) **Looking around when idle**
 - Block recognition (dear God help me)
-- Multiple Actions at the same time (Follow and chat, dance and talk)
-- (DONE) Damage/Hit recognition 
+- Multiple Actions at the same time (Follow and chat, dance and talk) 
+- (DONE) **Damage/Hit recognition**
 - Hit response/counterattack
 - Block destruction
 - Looking into openai vector stores/fine-tuning
 - Voice?
+
+##REFACTORING
+- Change the controller to Atomic Agents
+
 
 ##TOTEST
