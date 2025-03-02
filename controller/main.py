@@ -1,11 +1,11 @@
 import time
-
 from control.controller import Controller
 from control.base_models import SenseData
 
-
-def main(character_prompt: str = "junko_prompt.txt") -> None:
-    ctrl = Controller()
+def main(personality_prompt: str = "dain_personality.txt",
+         action_prompt: str = "dain_actions.txt") -> None:
+    
+    ctrl = Controller(personality_prompt, action_prompt)
     last_message_content = None
 
     while True:
@@ -23,8 +23,6 @@ def main(character_prompt: str = "junko_prompt.txt") -> None:
                 if action:
                     ctrl.act(action)
                     last_message_content = current_content
-
-
 
 if __name__ == "__main__":
     main()

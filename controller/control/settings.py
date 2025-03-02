@@ -11,7 +11,8 @@ class Settings(BaseSettings):
 
     # OpenAI configuration with defaults
     openai_api_key: str
-    openai_model: str = "gpt-4o-mini" 
+    action_model: str = "gpt-3.5-turbo"  # Add this
+    chat_model: str = "gpt-4o"  # Add this
 
     class Config:
         env_file = str(Path(__file__).parent.parent / '.env')

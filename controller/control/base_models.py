@@ -11,6 +11,7 @@ class BehaviorMode(str, Enum):
     WANDERING = "WANDERING"
     FOLLOWING = "FOLLOWING"
     INTERACTING = "INTERACTING"
+    ATTACKING = "ATTACKING"
 
 class Message(BaseModel):
     username: str
